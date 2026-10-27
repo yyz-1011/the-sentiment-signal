@@ -1,0 +1,33 @@
+feature,role,dtype_in_memory,definition
+source_record,Source or previously derived,Int64,1-based logical CSV record number including header; provenance only.
+source_index_1,Source or previously derived,Int64,Original Unnamed: 0.1 export index; provenance only.
+source_index_2,Source or previously derived,Int64,Original Unnamed: 0 export index; provenance only.
+text,Source or previously derived,object,"NFC Unicode and whitespace-normalized post; retains case, emoji, punctuation, hashtags and negation."
+sentiment,Source or previously derived,category,"Publisher-supplied label, whitespace normalized. No synonyms merged and no inferred polarity."
+timestamp,Source or previously derived,datetime64[ns],"Parsed source date/time; timezone unspecified, no UTC conversion."
+user,Source or previously derived,object,Normalized synthetic user identifier; case preserved.
+platform,Source or previously derived,category,"Normalized source platform, including Twitter as named in the source."
+hashtags,Source or previously derived,object,Whitespace-normalized source hashtag string.
+retweets,Source or previously derived,Int64,"Source retweet count, also present for non-Twitter platforms; comparability unverified."
+likes,Source or previously derived,Int64,Source like count.
+country,Source or previously derived,category,Normalized source location label; Scotland and UK remain separate to avoid silently changing geography.
+year,Source or previously derived,Int64,Year recomputed from timestamp.
+month,Source or previously derived,Int64,"Month recomputed from timestamp, 1–12."
+day,Source or previously derived,Int64,Day of month recomputed from timestamp.
+hour,Source or previously derived,Int64,"Hour recomputed from timestamp, timezone unknown."
+text_lower,Source or previously derived,object,Lowercase text feature retaining punctuation/emoji/negation; not a final model vocabulary.
+text_group_id,Source or previously derived,object,First 16 hex characters of SHA-256 of text_lower; group identical text together when splitting models.
+repeated_text,Source or previously derived,boolean,True for every member of a repeated text group after full-record deduplication.
+text_char_count,Source or previously derived,Int64,Character count of normalized text.
+text_word_count,Source or previously derived,Int64,"Whitespace-separated token count, includes punctuation/emoji tokens."
+total_interactions,Source or previously derived,Int64,"Likes + retweets; count proxy, not engagement rate. No impressions/follower denominator available."
+year_month,Source or previously derived,object,Calendar year-month from timestamp.
+weekday,Source or previously derived,category,Day name from timestamp; timezone unspecified.
+hashtag_list,Source or previously derived,object,"JSON array of unique lowercased hashtag tokens per post, extracted from Hashtags only."
+hashtag_count,Source or previously derived,Int64,Number of unique extracted hashtags in the post.
+hour_period,New exploration feature,object,"Source hour intervals: 00–05, 06–11, 12–17 or 18–23. Timezone unknown."
+is_weekend,New exploration feature,bool,True when timestamp weekday is Saturday or Sunday. NumPy membership operation.
+log1p_interactions,New exploration feature,float64,Natural log of 1 + likes + retweets. NumPy numeric transformation for exploration only.
+has_url,New exploration feature,bool,True for text matching https?:// or www. (case insensitive). Limited lexical pattern.
+has_mention,New exploration feature,bool,True for an at-sign followed by word characters outside a word. Limited lexical pattern.
+negation_cue_count,New exploration feature,int64,"Count of no, not, never, neither, nor, cannot or n’t contractions. Limited lexical pattern."

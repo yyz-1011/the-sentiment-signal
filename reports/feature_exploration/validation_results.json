@@ -1,0 +1,42 @@
+{
+  "source_rows": 710,
+  "source_columns": 26,
+  "exploration_rows": 710,
+  "exploration_columns": 32,
+  "added_columns": [
+    "hour_period",
+    "is_weekend",
+    "log1p_interactions",
+    "has_url",
+    "has_mention",
+    "negation_cue_count"
+  ],
+  "missing_input_cells": 0,
+  "sentiment_labels": 191,
+  "singleton_labels": 81,
+  "platforms": 3,
+  "location_labels": 33,
+  "users": 670,
+  "distinct_hashtags": 975,
+  "post_hashtag_rows": 1420,
+  "url_flagged_posts": 0,
+  "mention_flagged_posts": 0,
+  "posts_with_listed_negation_cues": 19,
+  "constant_features": [
+    "hashtag_count",
+    "has_url",
+    "has_mention"
+  ],
+  "input_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "date_min": "2010-05-15 15:30:00",
+  "date_max": "2023-10-22 20:45:00",
+  "validation": "All reconciliation and reload checks passed",
+  "charts_created": 0,
+  "models_trained": 0,
+  "hypothesis_tests_run": 0,
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.5.4"
+  }
+}

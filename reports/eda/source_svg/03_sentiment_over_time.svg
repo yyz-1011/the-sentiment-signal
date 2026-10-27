@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#263238}.title{font-size:24px;font-weight:700}.subtitle{font-size:13px;fill:#56616a}.label{font-size:13px}.small{font-size:11px;fill:#56616a}.grid{stroke:#e5e9ed;stroke-width:1}</style>
+<text class="title" x="48" y="42">Sentiment over time</text>
+<text class="subtitle" x="48" y="68">Annual post counts for the five most frequent sentiment labels, with total sample volume below</text>
+<line class="grid" x1="90" y1="405.0" x2="1065" y2="405.0"/>
+<text class="small" text-anchor="end" x="80" y="409.0">0</text>
+<line class="grid" x1="90" y1="350.0" x2="1065" y2="350.0"/>
+<text class="small" text-anchor="end" x="80" y="354.0">9</text>
+<line class="grid" x1="90" y1="295.0" x2="1065" y2="295.0"/>
+<text class="small" text-anchor="end" x="80" y="299.0">18</text>
+<line class="grid" x1="90" y1="240.0" x2="1065" y2="240.0"/>
+<text class="small" text-anchor="end" x="80" y="244.0">27</text>
+<line class="grid" x1="90" y1="185.0" x2="1065" y2="185.0"/>
+<text class="small" text-anchor="end" x="80" y="189.0">36</text>
+<line class="grid" x1="90" y1="130.0" x2="1065" y2="130.0"/>
+<text class="small" text-anchor="end" x="80" y="134.0">45</text>
+<polyline fill="none" stroke="#275DAD" stroke-width="3" points="90.0,405.0 165.0,405.0 240.0,405.0 315.0,405.0 390.0,405.0 465.0,405.0 540.0,405.0 615.0,405.0 690.0,405.0 765.0,405.0 840.0,405.0 915.0,405.0 990.0,405.0 1065.0,130.0"/>
+<circle cx="90.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="165.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="240.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="315.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="390.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="465.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="540.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="615.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="690.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="765.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="840.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="915.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="990.0" cy="405.0" r="3.5" fill="#275DAD"/>
+<circle cx="1065.0" cy="130.0" r="3.5" fill="#275DAD"/>
+<line x1="165" y1="102" x2="190" y2="102" stroke="#275DAD" stroke-width="3"/>
+<text class="small" x="197" y="106">Positive</text>
+<polyline fill="none" stroke="#48A9A6" stroke-width="3" points="90.0,405.0 165.0,405.0 240.0,405.0 315.0,405.0 390.0,405.0 465.0,405.0 540.0,405.0 615.0,398.9 690.0,398.9 765.0,398.9 840.0,405.0 915.0,392.8 990.0,405.0 1065.0,166.7"/>
+<circle cx="90.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="165.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="240.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="315.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="390.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="465.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="540.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="615.0" cy="398.9" r="3.5" fill="#48A9A6"/>
+<circle cx="690.0" cy="398.9" r="3.5" fill="#48A9A6"/>
+<circle cx="765.0" cy="398.9" r="3.5" fill="#48A9A6"/>
+<circle cx="840.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="915.0" cy="392.8" r="3.5" fill="#48A9A6"/>
+<circle cx="990.0" cy="405.0" r="3.5" fill="#48A9A6"/>
+<circle cx="1065.0" cy="166.7" r="3.5" fill="#48A9A6"/>
+<line x1="350" y1="102" x2="375" y2="102" stroke="#48A9A6" stroke-width="3"/>
+<text class="small" x="382" y="106">Joy</text>
+<polyline fill="none" stroke="#F4A259" stroke-width="3" points="90.0,405.0 165.0,405.0 240.0,405.0 315.0,405.0 390.0,405.0 465.0,405.0 540.0,405.0 615.0,405.0 690.0,398.9 765.0,392.8 840.0,398.9 915.0,398.9 990.0,398.9 1065.0,215.6"/>
+<circle cx="90.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="165.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="240.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="315.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="390.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="465.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="540.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="615.0" cy="405.0" r="3.5" fill="#F4A259"/>
+<circle cx="690.0" cy="398.9" r="3.5" fill="#F4A259"/>
+<circle cx="765.0" cy="392.8" r="3.5" fill="#F4A259"/>
+<circle cx="840.0" cy="398.9" r="3.5" fill="#F4A259"/>
+<circle cx="915.0" cy="398.9" r="3.5" fill="#F4A259"/>
+<circle cx="990.0" cy="398.9" r="3.5" fill="#F4A259"/>
+<circle cx="1065.0" cy="215.6" r="3.5" fill="#F4A259"/>
+<line x1="535" y1="102" x2="560" y2="102" stroke="#F4A259" stroke-width="3"/>
+<text class="small" x="567" y="106">Excitement</text>
+<polyline fill="none" stroke="#D95D39" stroke-width="3" points="90.0,405.0 165.0,405.0 240.0,405.0 315.0,405.0 390.0,405.0 465.0,405.0 540.0,405.0 615.0,405.0 690.0,405.0 765.0,405.0 840.0,405.0 915.0,405.0 990.0,405.0 1065.0,295.0"/>
+<circle cx="90.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="165.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="240.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="315.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="390.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="465.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="540.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="615.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="690.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="765.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="840.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="915.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="990.0" cy="405.0" r="3.5" fill="#D95D39"/>
+<circle cx="1065.0" cy="295.0" r="3.5" fill="#D95D39"/>
+<line x1="720" y1="102" x2="745" y2="102" stroke="#D95D39" stroke-width="3"/>
+<text class="small" x="752" y="106">Neutral</text>
+<polyline fill="none" stroke="#7656A5" stroke-width="3" points="90.0,392.8 165.0,398.9 240.0,405.0 315.0,405.0 390.0,405.0 465.0,398.9 540.0,405.0 615.0,398.9 690.0,405.0 765.0,398.9 840.0,398.9 915.0,405.0 990.0,398.9 1065.0,343.9"/>
+<circle cx="90.0" cy="392.8" r="3.5" fill="#7656A5"/>
+<circle cx="165.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="240.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="315.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="390.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="465.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="540.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="615.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="690.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="765.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="840.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="915.0" cy="405.0" r="3.5" fill="#7656A5"/>
+<circle cx="990.0" cy="398.9" r="3.5" fill="#7656A5"/>
+<circle cx="1065.0" cy="343.9" r="3.5" fill="#7656A5"/>
+<line x1="905" y1="102" x2="930" y2="102" stroke="#7656A5" stroke-width="3"/>
+<text class="small" x="937" y="106">Contentment</text>
+<text class="small" text-anchor="middle" x="90.0" y="425">2010</text>
+<text class="small" text-anchor="middle" x="165.0" y="425">2011</text>
+<text class="small" text-anchor="middle" x="240.0" y="425">2012</text>
+<text class="small" text-anchor="middle" x="315.0" y="425">2013</text>
+<text class="small" text-anchor="middle" x="390.0" y="425">2014</text>
+<text class="small" text-anchor="middle" x="465.0" y="425">2015</text>
+<text class="small" text-anchor="middle" x="540.0" y="425">2016</text>
+<text class="small" text-anchor="middle" x="615.0" y="425">2017</text>
+<text class="small" text-anchor="middle" x="690.0" y="425">2018</text>
+<text class="small" text-anchor="middle" x="765.0" y="425">2019</text>
+<text class="small" text-anchor="middle" x="840.0" y="425">2020</text>
+<text class="small" text-anchor="middle" x="915.0" y="425">2021</text>
+<text class="small" text-anchor="middle" x="990.0" y="425">2022</text>
+<text class="small" text-anchor="middle" x="1065.0" y="425">2023</text>
+<rect x="69.0" y="618.6" width="42.0" height="1.4" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="90.0" y="638">2010</text>
+<rect x="144.0" y="618.1" width="42.0" height="1.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="165.0" y="638">2011</text>
+<rect x="219.0" y="618.1" width="42.0" height="1.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="240.0" y="638">2012</text>
+<rect x="294.0" y="618.1" width="42.0" height="1.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="315.0" y="638">2013</text>
+<rect x="369.0" y="618.1" width="42.0" height="1.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="390.0" y="638">2014</text>
+<rect x="444.0" y="611.1" width="42.0" height="8.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="465.0" y="638">2015</text>
+<rect x="519.0" y="602.6" width="42.0" height="17.4" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="540.0" y="638">2016</text>
+<rect x="594.0" y="600.2" width="42.0" height="19.8" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="615.0" y="638">2017</text>
+<rect x="669.0" y="594.6" width="42.0" height="25.4" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="690.0" y="638">2018</text>
+<rect x="744.0" y="587.1" width="42.0" height="32.9" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="765.0" y="638">2019</text>
+<rect x="819.0" y="589.9" width="42.0" height="30.1" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="840.0" y="638">2020</text>
+<rect x="894.0" y="592.7" width="42.0" height="27.3" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="915.0" y="638">2021</text>
+<rect x="969.0" y="591.8" width="42.0" height="28.2" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="990.0" y="638">2022</text>
+<rect x="1044.0" y="485.0" width="42.0" height="135.0" fill="#9eb2c5"/>
+<text class="small" text-anchor="middle" x="1065.0" y="638">2023</text>
+<text class="small" text-anchor="middle" x="1065.0" y="478.0">287</text>
+<text class="small" text-anchor="middle" x="580" y="672">Year (top panel: posts by sentiment; bottom panel: all posts)</text>
+</svg>

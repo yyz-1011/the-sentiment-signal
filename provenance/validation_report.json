@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "raw_rows": 732,
+  "cleaned_rows": 710,
+  "removed_duplicates": 22,
+  "raw_sha256": "725c6f7bc928c2bf741094f37078024b305982523fe6d0b8cb20a6cf5275c63b",
+  "cleaned_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "sentiment_labels": 191,
+  "singleton_labels": 81,
+  "source_unchanged": true,
+  "cleaning_reconciled_to_snapshot": true,
+  "supplied_eda_tables_reconciled": true,
+  "notebooks": [
+    {
+      "notebook": "notebooks/01_feature_exploration.ipynb",
+      "code_cells_executed": 7,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks/02_sentiment_eda.ipynb",
+      "code_cells_executed": 3,
+      "errors": 0
+    },
+    {
+      "notebook": "notebooks/03_platform_hashtags.ipynb",
+      "code_cells_executed": 3,
+      "errors": 0
+    }
+  ],
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "ipython": "9.17.1"
+  },
+  "models_trained": 0,
+  "hypothesis_tests_run": 0,
+  "checks_do_not_include": [
+    "Native PowerPoint execution",
+    "Word report regeneration",
+    "Independent sentiment annotation",
+    "Model performance"
+  ],
+  "package_checks": {
+    "current_document_links_resolve": true,
+    "source_files_accounted_for": 189,
+    "unmapped_source_files": 0,
+    "all_files_below_25_MiB": true,
+    "common_credential_pattern_scan_findings": 0,
+    "credential_scan_scope": "common formats in text source and documentation; not an exhaustive security audit",
+    "archive_is_historical": true
+  }
+}

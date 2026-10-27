@@ -1,0 +1,4 @@
+feature,constant_value,unique_values
+hashtag_count,2,1
+has_url,False,1
+has_mention,False,1

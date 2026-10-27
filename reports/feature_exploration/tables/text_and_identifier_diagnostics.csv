@@ -1,0 +1,10 @@
+measure,value
+distinct_users,670
+distinct_text_groups,706
+repeated_text_rows,8
+repeated_text_groups,4
+distinct_hashtags,975
+post_hashtag_rows,1420
+url_flagged_posts,0
+mention_flagged_posts,0
+posts_with_listed_negation_cues,19

@@ -1,0 +1,1016 @@
+[
+  {
+    "source": "Data Cleaning & Feature Exploration/Data Cleaning/sentimentdataset.csv",
+    "target": "data/raw/sentimentdataset.csv",
+    "sha256": "725c6f7bc928c2bf741094f37078024b305982523fe6d0b8cb20a6cf5275c63b",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Data Cleaning/sentiment_cleaned.csv",
+    "target": "data/processed/sentiment_cleaned.csv",
+    "sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/data/posts_feature_exploration.csv",
+    "target": "data/processed/posts_feature_exploration.csv",
+    "sha256": "d0c86e3fec8ece60e7f906f419a9dfcaf3a492bfc67c500d9e385d1836b80da2",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/data/input_data_dictionary.csv",
+    "target": "data/input_data_dictionary.csv",
+    "sha256": "362d4604783d41f93228fedd059a1070fa8f41a6e64c07977da1ff77be3cda48",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Data Cleaning/Data_Cleaning_Report.docx",
+    "target": "reports/cleaning/Data_Cleaning_Report.docx",
+    "sha256": "aaa5cd2247a4a937fd3e7b4e6c4fa0a71a3355da6cf8b8627a2f2559e515e6ba",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/Feature_Exploration_Report.docx",
+    "target": "reports/feature_exploration/Feature_Exploration_Report.docx",
+    "sha256": "9555374bb9c441ef78d3c6656ef3f4552f40960c146799053cf528d8d9d7297c",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/annual_coverage.csv",
+    "target": "reports/feature_exploration/tables/annual_coverage.csv",
+    "sha256": "d68429ef211fa21fa33605646a656dd6422d3581141460bad071d3d501ab396b",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/category_summary.csv",
+    "target": "reports/feature_exploration/tables/category_summary.csv",
+    "sha256": "426fc90bc70f7a28c0d72fcd09183600e887a282a975d42fecafd4d6eae2d9cd",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/constant_feature_flags.csv",
+    "target": "reports/feature_exploration/tables/constant_feature_flags.csv",
+    "sha256": "746c195424b793b0821f43d509567f47896d4b7b63f2a282f149e70d91338d0c",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/country_value_counts.csv",
+    "target": "reports/feature_exploration/tables/country_value_counts.csv",
+    "sha256": "271a41389d8b99274439eee8351ad42b02cf3e7e54928dd5f5ff90b3c4b954e3",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/exploration_data_dictionary.csv",
+    "target": "reports/feature_exploration/tables/exploration_data_dictionary.csv",
+    "sha256": "0ce63b25036746a38cda847c02de9ec64157e79e99a6cc8b653417b6bf0c28a8",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/feature_inventory.csv",
+    "target": "reports/feature_exploration/tables/feature_inventory.csv",
+    "sha256": "ef3631a299d5936d33616fa68168e1ebf75e523219fc0d0d66bba6a9c38c77ae",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/filter_sort_example.csv",
+    "target": "reports/feature_exploration/tables/filter_sort_example.csv",
+    "sha256": "6a22f6e242a94eabdab9375f9d55ebc6436d7f0b7799e9398c95030b6fc862a1",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/hashtag_post_counts.csv",
+    "target": "reports/feature_exploration/tables/hashtag_post_counts.csv",
+    "sha256": "ba50fa74d9b3f406f3cf608c3fd40993a10c69c22393a07025cbff3dbdf64a93",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/hour_period_value_counts.csv",
+    "target": "reports/feature_exploration/tables/hour_period_value_counts.csv",
+    "sha256": "640ee6c4b659f93965b6b27f14f730f7003df50a374ff340a2e1b184f7215906",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/label_support_bands.csv",
+    "target": "reports/feature_exploration/tables/label_support_bands.csv",
+    "sha256": "2a537fb2843025629ad5b7ece0cf2114158ea8a34fb628076d4b164e30a48528",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/numeric_profile.csv",
+    "target": "reports/feature_exploration/tables/numeric_profile.csv",
+    "sha256": "c6c13fd6c4db976a3ab5114a24fd643a029f7de2034e0cd7268705aa852f68f2",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/platform_aggregation_example.csv",
+    "target": "reports/feature_exploration/tables/platform_aggregation_example.csv",
+    "sha256": "1501812846de98e6ec09d995cd8f6fe82d537e2c232713861c64f9b6feb047d6",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/platform_country_crosstab.csv",
+    "target": "reports/feature_exploration/tables/platform_country_crosstab.csv",
+    "sha256": "4db64c5f371bbd0e7ddf07868b377f6c7a66162ce09e05c2c1658559dc2916f8",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/platform_value_counts.csv",
+    "target": "reports/feature_exploration/tables/platform_value_counts.csv",
+    "sha256": "c9b6af686d9017d7d40b7cfc9384162f5a874264aaacf9c80a802b032706fbd9",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/post_hashtags_long.csv",
+    "target": "reports/feature_exploration/tables/post_hashtags_long.csv",
+    "sha256": "f8c46c81cf3a731a13a6a624f6c32c3d26c44206d9aee979ec274684370ba550",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/repeated_text_records.csv",
+    "target": "reports/feature_exploration/tables/repeated_text_records.csv",
+    "sha256": "f4595fcfeedf969c6fa735394a3eafb2eb9db79298e39ef1dcc2699643db638d",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/sentiment_value_counts.csv",
+    "target": "reports/feature_exploration/tables/sentiment_value_counts.csv",
+    "sha256": "683ee7ba17581f465980979970ac900f4301714092bd6ed25943e141784be2c1",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/text_and_identifier_diagnostics.csv",
+    "target": "reports/feature_exploration/tables/text_and_identifier_diagnostics.csv",
+    "sha256": "c052c3b9517e6896a59959f5f1a8fab0c65cc0d23d755bb846b3e9ea34dcfb7c",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/user_post_counts.csv",
+    "target": "reports/feature_exploration/tables/user_post_counts.csv",
+    "sha256": "6615a1812e4a6243253220f63344067000b579716e95af3f1cd78e88b7d02c80",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/tables/weekday_value_counts.csv",
+    "target": "reports/feature_exploration/tables/weekday_value_counts.csv",
+    "sha256": "41560a1f99747112be636b8684d778f42a28f069d9702be6e69789f1a6978bd9",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/validation_results.json",
+    "target": "reports/feature_exploration/validation_results.json",
+    "sha256": "bce87eaa041b7fa7d6e476decf7c44c8131c03d3393c6cbc34799cd5d8ce2602",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Feature_Exploration_Report_with_EDA.docx",
+    "target": "reports/eda/Feature_Exploration_Report_with_EDA.docx",
+    "sha256": "10140fd2168a1fdedd84c23aa776de0bf3837ecd6f4725f4c4e41b5703c430d8",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/findings.md",
+    "target": "reports/eda/original_findings.md",
+    "sha256": "73307989bcdeed42c3b400d0b3ca4c9ea80c1057c129fe85719cbe55050364aa",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/annual_sentiment_counts.csv",
+    "target": "reports/eda/tables/annual_sentiment_counts.csv",
+    "sha256": "ce67ce0af9c9092a00a726146c4b858ac20afa48657034420d05fe65ccd53322",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/sentiment_distribution.csv",
+    "target": "reports/eda/tables/sentiment_distribution.csv",
+    "sha256": "01afd06582d9c7624d1c0ca9de523e7fcf3f4a78986e6e9a3f536dbdbdcb2285",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/annual_post_counts.csv",
+    "target": "reports/eda/tables/annual_post_counts.csv",
+    "sha256": "dd20bd761ff973d7943c67b835a62858b25b28b73e778f9c03716f2f9981b34f",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/sentiment_interactions.csv",
+    "target": "reports/eda/tables/sentiment_interactions.csv",
+    "sha256": "d902358afe8f77ed1b561f5816416fd74d70930941522e17d368a4405f8e3d3e",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/eda_platform_interactions.png",
+    "target": "reports/eda/figures/eda_platform_interactions.png",
+    "sha256": "6f14118db004756e1d5f1ae29403e4e497376c367d218a319930fc05afb3ab4b",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/eda_platform_sentiment_distribution.png",
+    "target": "reports/eda/figures/eda_platform_sentiment_distribution.png",
+    "sha256": "216ca2d792e99dff7eff419703fbc4b4f94babc33b279f65470cdc62ae3f0753",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/eda_top_hashtags_engagement.png",
+    "target": "reports/eda/figures/eda_top_hashtags_engagement.png",
+    "sha256": "8d760526d686933877f4df0b5f42722572e73705db89e59c5f3e3ccf88e212ce",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/sentiment_distribution.png",
+    "target": "reports/eda/figures/sentiment_distribution.png",
+    "sha256": "d699b97b9b03094f82e2089adaf8b291055989e05b20fa62c8df8aee9af03351",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/sentiment_interactions.png",
+    "target": "reports/eda/figures/sentiment_interactions.png",
+    "sha256": "560719a8114e6e59e490f4fe924d8084b0e12184aaad523c43ed25de39bee238",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/Figures/sentiment_over_time.png",
+    "target": "reports/eda/figures/sentiment_over_time.png",
+    "sha256": "a269db4a7bceb7754a6386ed436e9f60f00cb344a35123acf8705996a5df3338",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/sources/platform_sentiment_top10_pct_verified.csv",
+    "target": "reports/eda/tables/platform_sentiment_top10_pct_verified.csv",
+    "sha256": "8084a003d11cb300bafed0362fd4d8a3a700549a0cfab36a54d79b0ebcff850a",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/sources/platform_summary_verified.csv",
+    "target": "reports/eda/tables/platform_summary_verified.csv",
+    "sha256": "bc4080e25b88832b16c13529c116c2a5d41168e964e741a69314f02ca9817830",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/sources/hashtag_summary_verified.csv",
+    "target": "reports/eda/tables/hashtag_summary_verified.csv",
+    "sha256": "8dd7fce4f6b97aff6ed939c887dac779ff1d6e9adc51d3d879fe191add244719",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/sources/platform_sentiment_top10_denominators.csv",
+    "target": "reports/eda/tables/platform_sentiment_top10_denominators.csv",
+    "sha256": "868c60b6fe3bf49cc35185a20da82fd0cfbbc61b55512b7e0dc55ba9649eaa25",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/sources/verification_notes.md",
+    "target": "reports/eda/verification_notes.md",
+    "sha256": "09db44d420a558de29c12a9f71f7a060c91832c19e308de59e64a84a0401d112",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/sources/kaggle_metadata.json",
+    "target": "data/provenance/kaggle_metadata.json",
+    "sha256": "f7718ad28003296ff731824671bb2dc1e12b5a52ed33959f0733780bbe5122ff",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/The_Sentiment_Signal_Midterm_Themed.pptx",
+    "target": "presentation/The_Sentiment_Signal_Midterm_Themed.pptx",
+    "sha256": "c8c58cdb0d71916ad36107b13051ad5d60216fc816d1eb0e15689309315dca9c",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/Midterm_Speech_Script.docx",
+    "target": "presentation/Midterm_Speech_Script.docx",
+    "sha256": "a117443a73fe92d326220e7cddc0f626ec8942ab8fdc889aab68cfb1f66cc17d",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/Midterm_Speech_Script.md",
+    "target": "presentation/Midterm_Speech_Script.md",
+    "sha256": "1b34ca39b4c5c29fab9802413053ea2ce42cc9acdc978feb85fffbb83d692550",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/notebooks/Feature_Exploration.ipynb",
+    "target": "presentation/notebooks/Feature_Exploration.ipynb",
+    "sha256": "2ef0f1950e66d9aea2e8f686e0ed1b976cb014d1bbc7f553cd10db3aeee8e38e",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/notebooks/eda_platform_hashtags.ipynb",
+    "target": "presentation/notebooks/eda_platform_hashtags.ipynb",
+    "sha256": "9e3c9df3e7cea58e7446e86e9d8e25a87bcbacb17117aae7da3d27ba51276d2c",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/notebooks/sentiment_cleaned.csv",
+    "target": "presentation/notebooks/sentiment_cleaned.csv",
+    "sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/notebooks/data/sentiment_cleaned.csv",
+    "target": "presentation/notebooks/data/sentiment_cleaned.csv",
+    "sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/theme_assets/README.md",
+    "target": "presentation/theme_assets/README.md",
+    "sha256": "c09e5aacbb79850006018397cb0a30204666c72eebe0ccc10650826ad098d7ef",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/theme_assets/generation_prompts.json",
+    "target": "presentation/theme_assets/generation_prompts.json",
+    "sha256": "081dd7af3562068f25eda709ef1083ab9c3c2c6b57dd8b279e39e00d714b54dd",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/theme_assets/signal-cover.png",
+    "target": "presentation/theme_assets/signal-cover.png",
+    "sha256": "9859868e8ae3e385e550777e2a2850c201f7a9b69ba0c86d37018fdb9ae38180",
+    "treatment": "copied"
+  },
+  {
+    "source": "Midterm Presentation/theme_assets/signal-light.png",
+    "target": "presentation/theme_assets/signal-light.png",
+    "sha256": "0a4d2922244bc5cf914dd95bd9bcbd05fa29cedce6c20b48f4b17dfebf722875",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/README.md",
+    "target": "archive/initial_analysis/README.md",
+    "sha256": "5aa7c2803798bf2fc86ffc4a2bf61b8595e6a430427022b598a146d0dd074402",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/data_quality_audit.json",
+    "target": "archive/initial_analysis/data_quality_audit.json",
+    "sha256": "26bc246152a2ff954dc66781e066b9f339550ae0fb17cb3d3562698dfa1ea37b",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/01_top_sentiments.png",
+    "target": "archive/initial_analysis/figures/01_top_sentiments.png",
+    "sha256": "d0df51e3c942ac6b4aa6d67cf7ca17e197c5f986d77ca4d9c56a638603123074",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/02_platforms.png",
+    "target": "archive/initial_analysis/figures/02_platforms.png",
+    "sha256": "74794adfcacf7ac6531087fe2f1298164ba30a1ef6bc331f993867273757bfc8",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/03_temporal_coverage.png",
+    "target": "archive/initial_analysis/figures/03_temporal_coverage.png",
+    "sha256": "6ae2d2ff1a3fac5428f8f9c4f2bf3b1d0f2c0769f46acf3dafce1ee80fb69c47",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/04_geographic_coverage.png",
+    "target": "archive/initial_analysis/figures/04_geographic_coverage.png",
+    "sha256": "c9050a01be2b2b518aace962e47a93bdbb497d79bfae8a6fb877faf89dfa7d3c",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/05_hashtags.png",
+    "target": "archive/initial_analysis/figures/05_hashtags.png",
+    "sha256": "5ab1062995d375f95667cafab94de375acbdcd3a92bd7b7f924793ee17ad9d15",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/06_engagement.png",
+    "target": "archive/initial_analysis/figures/06_engagement.png",
+    "sha256": "2e67ba8321b4297796d5e814a6d77a8fabb6f75f7bb0b575fb91345806962930",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/07_platform_sentiment_mix.png",
+    "target": "archive/initial_analysis/figures/07_platform_sentiment_mix.png",
+    "sha256": "f4f26a1bf61d5184df74dbe1ec26725ed546451c2c9cc92906a9ba7bbe9ed65e",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/figures/08_sentiment_engagement.png",
+    "target": "archive/initial_analysis/figures/08_sentiment_engagement.png",
+    "sha256": "bab67ee1ca1c84b5f65be18a820b7289b4fed1d2c7ed2ac884c58f0a8218e718",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/initial_analysis_report.html",
+    "target": "archive/initial_analysis/initial_analysis_report.html",
+    "sha256": "2cf0702103391f48202b0f13671a3ede1d2ee37e353d5ab3fe29a659e3bd8958",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/initial_analysis_report.md",
+    "target": "archive/initial_analysis/initial_analysis_report.md",
+    "sha256": "c021f44befeb71105802d7a7ca84622fdda95b2723c3aa1996c7a7d1aaa946ea",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/preprocess_and_analyze.py",
+    "target": "archive/initial_analysis/preprocess_and_analyze.py",
+    "sha256": "4282a61ef12e20df5258ad8df4544fa9146792fdcf9069d972beb6f475aba256",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/removed_duplicate_records.csv",
+    "target": "archive/initial_analysis/removed_duplicate_records.csv",
+    "sha256": "a65270a819e3cf79419dbe50a01932362e0c5d8a2d993a9fced2e44a7f88bef8",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/requirements.txt",
+    "target": "archive/initial_analysis/requirements.txt",
+    "sha256": "ace5676d244243a2ea9e4d629ce1c0f1ead5cb1147222452899b047734859b25",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/sentiment_cleaned.csv",
+    "target": "archive/initial_analysis/sentiment_cleaned.csv",
+    "sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/sentiment_label_review_template.csv",
+    "target": "archive/initial_analysis/sentiment_label_review_template.csv",
+    "sha256": "8a0ba61ca47f83680e804a5f671e90a5717165b716f4b3c4da4210930359d621",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/sources/kaggle_metadata.json",
+    "target": "archive/initial_analysis/sources/kaggle_metadata.json",
+    "sha256": "f7718ad28003296ff731824671bb2dc1e12b5a52ed33959f0733780bbe5122ff",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/column_quality.csv",
+    "target": "archive/initial_analysis/tables/column_quality.csv",
+    "sha256": "7a35a12dfbec5760c3e51ebacfb37e64f663943a75f38c9f2cb8f4ed2c9196c5",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/correlations.csv",
+    "target": "archive/initial_analysis/tables/correlations.csv",
+    "sha256": "e23ea6ee6986c2506039ed8813d2da02a534381bb4016405652517d0ac42e4ae",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/country_sentiment_counts.csv",
+    "target": "archive/initial_analysis/tables/country_sentiment_counts.csv",
+    "sha256": "81e8d4f24fb7c0db4041dba43c2996680ccd8ad256fbe9c6a74339c3fcbd4a02",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/country_sentiment_share_pct.csv",
+    "target": "archive/initial_analysis/tables/country_sentiment_share_pct.csv",
+    "sha256": "1311424a17d9869e719fe1127406e9ac10685ce4f1433cb4ae307afe8372543e",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/country_summary.csv",
+    "target": "archive/initial_analysis/tables/country_summary.csv",
+    "sha256": "6925207795402bca1901aa87022e8a5a5506e9e62fa096b58dce550537da75a6",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/data_dictionary.csv",
+    "target": "archive/initial_analysis/tables/data_dictionary.csv",
+    "sha256": "362d4604783d41f93228fedd059a1070fa8f41a6e64c07977da1ff77be3cda48",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/duplicate_sensitivity.csv",
+    "target": "archive/initial_analysis/tables/duplicate_sensitivity.csv",
+    "sha256": "cb7fd1f235f5579d97a5c5e613021cc7ce275fb95fdd891b1e9b8c1c45277b20",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/hashtag_summary.csv",
+    "target": "archive/initial_analysis/tables/hashtag_summary.csv",
+    "sha256": "a51c22165cb63a46a50f0d4aae605c01dd39f74f36a3296bc5f943a41ef965c4",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/hour_summary.csv",
+    "target": "archive/initial_analysis/tables/hour_summary.csv",
+    "sha256": "9939d5094a4478abcb836d94007b3156dc71a55a8a74bd9d752d44dbd04ffd1a",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/normalization_log.csv",
+    "target": "archive/initial_analysis/tables/normalization_log.csv",
+    "sha256": "953bbf7ff756fcab2b50df45020dfdece58543925798cdb73ef1a100a0c18a2c",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/numeric_summary.csv",
+    "target": "archive/initial_analysis/tables/numeric_summary.csv",
+    "sha256": "4c1c18b1849e614bd931516fa8bccf1f8de0d670a6e09e981302927ea569429e",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/platform_sentiment_counts.csv",
+    "target": "archive/initial_analysis/tables/platform_sentiment_counts.csv",
+    "sha256": "0bcb292d23b0cbb553df5be60a50e35b598fda4bddbd67c731dc1b8eb9d825ba",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/platform_sentiment_share_pct.csv",
+    "target": "archive/initial_analysis/tables/platform_sentiment_share_pct.csv",
+    "sha256": "e885a885a21f61afab83505e19f5df7619ba69d0d69d4f35ffe31a97fe8d7405",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/platform_summary.csv",
+    "target": "archive/initial_analysis/tables/platform_summary.csv",
+    "sha256": "00d73dc778cc3245fe10f4dc2b615f452b673a8e6c694516c62358eeafb6747e",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/post_hashtags.csv",
+    "target": "archive/initial_analysis/tables/post_hashtags.csv",
+    "sha256": "226ed543479494079c1ebdefd83f153917fdac810dad80fb9274fa5e4e4c1219",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/repeated_text_records.csv",
+    "target": "archive/initial_analysis/tables/repeated_text_records.csv",
+    "sha256": "f4595fcfeedf969c6fa735394a3eafb2eb9db79298e39ef1dcc2699643db638d",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/sentiment_distribution.csv",
+    "target": "archive/initial_analysis/tables/sentiment_distribution.csv",
+    "sha256": "a7cd86495aefb19678d3fc712627df0779342126712cba02944232f568064137",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/sentiment_engagement.csv",
+    "target": "archive/initial_analysis/tables/sentiment_engagement.csv",
+    "sha256": "621f726a8acddd756d56453d9d269c681bed96277a5f6c3bb82bfe37e5251003",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/weekday_summary.csv",
+    "target": "archive/initial_analysis/tables/weekday_summary.csv",
+    "sha256": "ae3fe35de2d4cce85b87274c6334a130bec4e6a126819a3e15a345f7ee695b93",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/year_month_summary.csv",
+    "target": "archive/initial_analysis/tables/year_month_summary.csv",
+    "sha256": "fec73b976923706cec2e53555cea505e2f3afc4055a036f42a4669e9f7e6f8f2",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/year_sentiment_counts.csv",
+    "target": "archive/initial_analysis/tables/year_sentiment_counts.csv",
+    "sha256": "6e3272089b0411a6e9f150ffbbcca1820d63f8cad51e78b4058c94a871d8c67e",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/year_sentiment_share_pct.csv",
+    "target": "archive/initial_analysis/tables/year_sentiment_share_pct.csv",
+    "sha256": "49871fcdcc6785762547144b3ab677c231da9e77d4ba0ca79b2b710b06e6802c",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/tables/year_summary.csv",
+    "target": "archive/initial_analysis/tables/year_summary.csv",
+    "sha256": "692b63d6dd9097c31fcd8be5f74380042cd2f88ba5155fe8b6c089f3792b8938",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/README.md",
+    "target": "archive/weeks_1_3/README.md",
+    "sha256": "698c772154c0d3e7d447751bd5f092377cc47fe600b93ffafda3866733e21078",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/The_Sentiment_Signal_Weeks_1_to_3_Report.docx",
+    "target": "archive/weeks_1_3/The_Sentiment_Signal_Weeks_1_to_3_Report.docx",
+    "sha256": "10eb690ea26fdcbd71952d7ddd8032b89aa6db0c290b699c224ae8485368f077",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/annotation_review_sample_proposed.csv",
+    "target": "archive/weeks_1_3/data/annotation_review_sample_proposed.csv",
+    "sha256": "ccf7ea9e684f3d32c5e1bbad8de2d63fa0f2551797fd2fa4654a38a9b4a15945",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/classification_corpus_draft.csv",
+    "target": "archive/weeks_1_3/data/classification_corpus_draft.csv",
+    "sha256": "de09eea2b51a07b2e660d1f60a19da565948046f9421ad79bdba80f399c5e5e9",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/cleaning_checks.json",
+    "target": "archive/weeks_1_3/data/cleaning_checks.json",
+    "sha256": "c3edc8db7023df8ec23cbfed94b43bfa2086b1dcac4fb1b6df296f64774c54ae",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/polarity_mapping_proposed.csv",
+    "target": "archive/weeks_1_3/data/polarity_mapping_proposed.csv",
+    "sha256": "dba308d5fcd5d376d46a320646aa5c958410bf5074b6ba4cc1b1c7a112fc6259",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/posts_prepared.csv",
+    "target": "archive/weeks_1_3/data/posts_prepared.csv",
+    "sha256": "0f0ae062542344f7021c8dd9619c280c8fa19032c7832b8e2797d383a55969b8",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/data/removed_duplicate_records.csv",
+    "target": "archive/weeks_1_3/data/removed_duplicate_records.csv",
+    "sha256": "d692d5e1e56f6507ef56ba9637fb9d013199aab03ad7917b6fdb51dfacccc249",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/figures/09_label_support.png",
+    "target": "archive/weeks_1_3/figures/09_label_support.png",
+    "sha256": "f7b5f58e7d0094c9aaba83202dec07a1573d14c09d60eab6eeb48ac386cb1975",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/figures/10_year_platform_coverage.png",
+    "target": "archive/weeks_1_3/figures/10_year_platform_coverage.png",
+    "sha256": "3e54fbcec3c1676c98870edf5c8653de446632c302df97ab44b5f0e4c51ce752",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/figures/11_feature_correlations.png",
+    "target": "archive/weeks_1_3/figures/11_feature_correlations.png",
+    "sha256": "c1dc7d61cf98c222149a31ddbfa7adde1374068c192c0fe9ec5021ac400706de",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/figures/12_text_exploration.png",
+    "target": "archive/weeks_1_3/figures/12_text_exploration.png",
+    "sha256": "5762ea793fdb2160b05de6686e6305d3b471b9e64936e2fe03b6e6889f28c7b7",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/instructor_feedback_log.csv",
+    "target": "archive/weeks_1_3/instructor_feedback_log.csv",
+    "sha256": "108c65e4d7be11160ab432fc3b477ede04ada34858d977c80180159cadf388e6",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/mid_program_presentation_outline.md",
+    "target": "archive/weeks_1_3/mid_program_presentation_outline.md",
+    "sha256": "460928b1dffcf39774e168ec825e2bad99e0c111f7f77cccf07f43a6680e1065",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/one_week_preparation_plan.md",
+    "target": "archive/weeks_1_3/one_week_preparation_plan.md",
+    "sha256": "f353a6e9bf0abd91a2d26d10b8815e9b32e8bd5c3c94e5e1f223ba76a494b999",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/problem_and_features.md",
+    "target": "archive/weeks_1_3/problem_and_features.md",
+    "sha256": "151aa770633996e9792ee0b4adc5f2e53df95141a64473960f27cd08e97cb15d",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/project_charter.md",
+    "target": "archive/weeks_1_3/project_charter.md",
+    "sha256": "e564b83cd34ed1fe360a632871758c40c02635816d1112cbcc7406c60abb1ab0",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/requirements.txt",
+    "target": "archive/weeks_1_3/requirements.txt",
+    "sha256": "482d31dfab7fa95d23581df58a972ee04a1660f24fb4d487fc2804c95b5107ca",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/country_sentiment_pct.csv",
+    "target": "archive/weeks_1_3/tables/country_sentiment_pct.csv",
+    "sha256": "1311424a17d9869e719fe1127406e9ac10685ce4f1433cb4ae307afe8372543e",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/feature_dictionary_and_selection.csv",
+    "target": "archive/weeks_1_3/tables/feature_dictionary_and_selection.csv",
+    "sha256": "83ef5aabd240f61795b2bd5a991fb03aa137b6edf82bb45437d060ff478ce893",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/feature_selection.csv",
+    "target": "archive/weeks_1_3/tables/feature_selection.csv",
+    "sha256": "2e8f741f6ddb817e0d087676ece7fd90554c433aa71be20a07b4339fea3d7797",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/hashtag_label_cues.csv",
+    "target": "archive/weeks_1_3/tables/hashtag_label_cues.csv",
+    "sha256": "9a31373aeacb47b8112353869ec19eed639049abfe106f6bcddef29936ac064c",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/label_support.csv",
+    "target": "archive/weeks_1_3/tables/label_support.csv",
+    "sha256": "7da3092486a047ca01d26db984bb5b349be37d24fcac611e0a20b7cb30e8f9e5",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/label_support_bands.csv",
+    "target": "archive/weeks_1_3/tables/label_support_bands.csv",
+    "sha256": "2a537fb2843025629ad5b7ece0cf2114158ea8a34fb628076d4b164e30a48528",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/normalization_log.csv",
+    "target": "archive/weeks_1_3/tables/normalization_log.csv",
+    "sha256": "e7ea87e9f530033c689ea6d493247f6b40e42eda8df0926c504c30e04b1178a4",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/outlier_inspection.csv",
+    "target": "archive/weeks_1_3/tables/outlier_inspection.csv",
+    "sha256": "58d855847eca3666ab4eea3b057a4b80cadb482b27ca422c4999fdcf7898815a",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/pearson_correlations.csv",
+    "target": "archive/weeks_1_3/tables/pearson_correlations.csv",
+    "sha256": "287727b004d23678ab93ab2f734cb41ee0b21c814e67ce0597595b1754e5e6bd",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/polarity_draft_distribution.csv",
+    "target": "archive/weeks_1_3/tables/polarity_draft_distribution.csv",
+    "sha256": "64dab7c1dbe52b97e1e94e4845ed308dcda13e8b3f8634a7b03ace28363cf41a",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/raw_inventory.csv",
+    "target": "archive/weeks_1_3/tables/raw_inventory.csv",
+    "sha256": "8cb594fbc2930845dce1e70ac2b1e2778d8c42bf1a4736b790b9e9e73ed0c3dc",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/spearman_correlations.csv",
+    "target": "archive/weeks_1_3/tables/spearman_correlations.csv",
+    "sha256": "a181855593acdd4d445d1013ef48db22ccd7afee269b675b342eb89c66c201b1",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/text_document_frequency.csv",
+    "target": "archive/weeks_1_3/tables/text_document_frequency.csv",
+    "sha256": "2bb8c8e0878a7672ca039186a40715937a0f4f5d4bdb66e62f0a8e0672109995",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/weeks_1_3_metrics.json",
+    "target": "archive/weeks_1_3/tables/weeks_1_3_metrics.json",
+    "sha256": "c1447be41ba38770034e81d3a6bd4da047f299c03f4d3189602ee4cf89bdfe67",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/year_platform_coverage.csv",
+    "target": "archive/weeks_1_3/tables/year_platform_coverage.csv",
+    "sha256": "dbb4f6fbf6aaad59d69b6baa136409b37ea98ec4f31a762b9b49774ab0644c78",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/tables/year_sentiment_pct.csv",
+    "target": "archive/weeks_1_3/tables/year_sentiment_pct.csv",
+    "sha256": "49871fcdcc6785762547144b3ab677c231da9e77d4ba0ca79b2b710b06e6802c",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/weeks_1_3_analysis.ipynb",
+    "target": "archive/weeks_1_3/weeks_1_3_analysis.ipynb",
+    "sha256": "7d592ca64e73dc34b8454dc127a7e6e9703a73cbf47a9e7700e11ff3df7b4a64",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/weeks_1_3_analysis.py",
+    "target": "archive/weeks_1_3/weeks_1_3_analysis.py",
+    "sha256": "d2d2753846eb65771466abd5ada13dd32d55b94f1887ff3efe4c4297c6baa86f",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/weeks_1_3_report.html",
+    "target": "archive/weeks_1_3/weeks_1_3_report.html",
+    "sha256": "25edee441438f57ffc4e5d28916c99a0a0ccf61ce267d27eddddcdab6a6c044c",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/weeks_1_3_report.md",
+    "target": "archive/weeks_1_3/weeks_1_3_report.md",
+    "sha256": "e0afa669d5017920ae5f4129adbdbe8da7c02a34487d9fd2938313a5247af31a",
+    "treatment": "copied"
+  },
+  {
+    "source": "weeks_1_3/workflow_checklist.csv",
+    "target": "archive/weeks_1_3/workflow_checklist.csv",
+    "sha256": "97f60c57074c513aca66600f0c8c174704ec6a95a997c514980da111fe53b6a5",
+    "treatment": "copied"
+  },
+  {
+    "source": "initial_analysis/preprocess_and_analyze.py",
+    "target": "src/preprocess_and_analyze.py",
+    "sha256": "4282a61ef12e20df5258ad8df4544fa9146792fdcf9069d972beb6f475aba256",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda.py",
+    "target": "src/eda_core.py",
+    "sha256": "7e64368a4dc72d62168cc71f98aa721eb696f9e66d160ed9e6e0650429a98dda",
+    "treatment": "copied"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/Feature_Exploration.ipynb",
+    "target": "notebooks/01_feature_exploration.ipynb",
+    "sha256": "",
+    "treatment": "portable copy with documented edits; reexecuted"
+  },
+  {
+    "source": "EDA_Supplement/Feature_Exploration.ipynb",
+    "target": "notebooks/02_sentiment_eda.ipynb",
+    "sha256": "",
+    "treatment": "portable copy with documented edits; reexecuted"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda_platform_hashtags.ipynb",
+    "target": "notebooks/03_platform_hashtags.ipynb",
+    "sha256": "",
+    "treatment": "portable copy with documented edits; reexecuted"
+  },
+  {
+    "source": "EDA_Supplement/Feature_Exploration.ipynb",
+    "target": "archive/team_handoffs/combined_feature_and_eda_original.ipynb",
+    "sha256": "2ef0f1950e66d9aea2e8f686e0ed1b976cb014d1bbc7f553cd10db3aeee8e38e",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/requirements.txt",
+    "target": "archive/team_handoffs/supplement_requirements.txt",
+    "sha256": "10fc5a31242e095b09d0a942707143486c0a7b8d385e3f07526078d1c15bafd1",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/validation_results.json",
+    "target": "archive/team_handoffs/supplement_validation_results.json",
+    "sha256": "d94cbd3380bb9a6b4ee7c145f7d535dff9bc0365838cc5e3acc3e7588b60fcc5",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/README.md",
+    "target": "archive/team_handoffs/supplement_README.md",
+    "sha256": "316fe783b5cde3264f277447ad9c5b0db03f505008211b62d307ee890de188d7",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/feature_exploration.py",
+    "target": "archive/team_handoffs/supplement_feature_exploration_original.py",
+    "sha256": "53fb63c21f90dc6986cb1c8d51694577b1bdc8f2c063fce42d699ee718624141",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/Feature_Exploration.ipynb",
+    "target": "archive/team_handoffs/feature_exploration_original.ipynb",
+    "sha256": "ed02dcac9f8cf4614f38dfbaefbf844f0c73220b5eb7f80117b3516db72c04f9",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/requirements.txt",
+    "target": "archive/team_handoffs/feature_requirements.txt",
+    "sha256": "cdcb188c6de5cacbd0cb5b33d809db5e3b819fa0f5ad6d6e05b63b728c91c2f4",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/README.md",
+    "target": "archive/team_handoffs/feature_README.md",
+    "sha256": "b02eadf7d6c24d639a48a2339a5af5af6e43f253171997a819b08769f6d2591e",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/feature_exploration.py",
+    "target": "archive/team_handoffs/feature_exploration_original.py",
+    "sha256": "ce9baa3fac637bb4166720bf1009da1ec6b0ab265fbec245db103d4c53a5451b",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda_platform_hashtags.ipynb",
+    "target": "archive/team_handoffs/platform_hashtags_original.ipynb",
+    "sha256": "9e3c9df3e7cea58e7446e86e9d8e25a87bcbacb17117aae7da3d27ba51276d2c",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda.py",
+    "target": "archive/team_handoffs/eda_original.py",
+    "sha256": "7e64368a4dc72d62168cc71f98aa721eb696f9e66d160ed9e6e0650429a98dda",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/03_sentiment_over_time.svg",
+    "target": "reports/eda/source_svg/03_sentiment_over_time.svg",
+    "sha256": "e2d3859d3af95e6ddb2b93105b22f796349ae0c71090f0ca6f68100232ac9adb",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/01_sentiment_distribution.svg",
+    "target": "reports/eda/source_svg/01_sentiment_distribution.svg",
+    "sha256": "a2cbaae8901bbd4a371ea32efc042c089c596d8933a1f4330af269d8f56736c2",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/02_sentiment_interactions.svg",
+    "target": "reports/eda/source_svg/02_sentiment_interactions.svg",
+    "sha256": "f5cfe19d3418c8ae3cd0b99544f124221b3f04db770a7245178320ad99c77bb4",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/Feature_Exploration.ipynb",
+    "target": "archive/team_handoffs/combined_feature_and_eda_original.ipynb",
+    "sha256": "2ef0f1950e66d9aea2e8f686e0ed1b976cb014d1bbc7f553cd10db3aeee8e38e",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/requirements.txt",
+    "target": "archive/team_handoffs/supplement_requirements.txt",
+    "sha256": "10fc5a31242e095b09d0a942707143486c0a7b8d385e3f07526078d1c15bafd1",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/validation_results.json",
+    "target": "archive/team_handoffs/supplement_validation_results.json",
+    "sha256": "d94cbd3380bb9a6b4ee7c145f7d535dff9bc0365838cc5e3acc3e7588b60fcc5",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/README.md",
+    "target": "archive/team_handoffs/supplement_README.md",
+    "sha256": "316fe783b5cde3264f277447ad9c5b0db03f505008211b62d307ee890de188d7",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/feature_exploration.py",
+    "target": "archive/team_handoffs/supplement_feature_exploration_original.py",
+    "sha256": "53fb63c21f90dc6986cb1c8d51694577b1bdc8f2c063fce42d699ee718624141",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/Feature_Exploration.ipynb",
+    "target": "archive/team_handoffs/feature_exploration_original.ipynb",
+    "sha256": "ed02dcac9f8cf4614f38dfbaefbf844f0c73220b5eb7f80117b3516db72c04f9",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/requirements.txt",
+    "target": "archive/team_handoffs/feature_requirements.txt",
+    "sha256": "cdcb188c6de5cacbd0cb5b33d809db5e3b819fa0f5ad6d6e05b63b728c91c2f4",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/README.md",
+    "target": "archive/team_handoffs/feature_README.md",
+    "sha256": "b02eadf7d6c24d639a48a2339a5af5af6e43f253171997a819b08769f6d2591e",
+    "treatment": "historical original"
+  },
+  {
+    "source": "Data Cleaning & Feature Exploration/Feature Exploration/feature_exploration.py",
+    "target": "archive/team_handoffs/feature_exploration_original.py",
+    "sha256": "ce9baa3fac637bb4166720bf1009da1ec6b0ab265fbec245db103d4c53a5451b",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda_platform_hashtags.ipynb",
+    "target": "archive/team_handoffs/platform_hashtags_original.ipynb",
+    "sha256": "9e3c9df3e7cea58e7446e86e9d8e25a87bcbacb17117aae7da3d27ba51276d2c",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/eda.py",
+    "target": "archive/team_handoffs/eda_original.py",
+    "sha256": "7e64368a4dc72d62168cc71f98aa721eb696f9e66d160ed9e6e0650429a98dda",
+    "treatment": "historical original"
+  },
+  {
+    "source": "EDA_Supplement/eda/03_sentiment_over_time.svg",
+    "target": "reports/eda/source_svg/03_sentiment_over_time.svg",
+    "sha256": "e2d3859d3af95e6ddb2b93105b22f796349ae0c71090f0ca6f68100232ac9adb",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/01_sentiment_distribution.svg",
+    "target": "reports/eda/source_svg/01_sentiment_distribution.svg",
+    "sha256": "a2cbaae8901bbd4a371ea32efc042c089c596d8933a1f4330af269d8f56736c2",
+    "treatment": "copied"
+  },
+  {
+    "source": "EDA_Supplement/eda/02_sentiment_interactions.svg",
+    "target": "reports/eda/source_svg/02_sentiment_interactions.svg",
+    "sha256": "f5cfe19d3418c8ae3cd0b99544f124221b3f04db770a7245178320ad99c77bb4",
+    "treatment": "copied"
+  }
+]
