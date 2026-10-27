@@ -1,0 +1,16 @@
+column,dtype,missing_cells,unique_raw_values
+Unnamed: 0.1,int64,0,732
+Unnamed: 0,int64,0,732
+Text,object,0,707
+Sentiment,object,0,279
+Timestamp,object,0,683
+User,object,0,685
+Platform,object,0,4
+Hashtags,object,0,697
+Retweets,float64,0,26
+Likes,float64,0,38
+Country,object,0,115
+Year,int64,0,14
+Month,int64,0,12
+Day,int64,0,31
+Hour,int64,0,22

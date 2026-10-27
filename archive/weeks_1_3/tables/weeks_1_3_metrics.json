@@ -1,0 +1,19 @@
+{
+  "raw_rows": 732,
+  "clean_rows": 710,
+  "removed_duplicates": 22,
+  "label_count": 191,
+  "singleton_labels": 81,
+  "hashtag_label_match_posts": 498,
+  "hashtag_label_match_pct": 70.14084507042253,
+  "draft_polarity_counts": {
+    "Positive": 328,
+    "Needs review": 201,
+    "Negative": 163,
+    "Neutral": 18
+  },
+  "review_worksheet_rows": 78,
+  "input_sha256": "725c6f7bc928c2bf741094f37078024b305982523fe6d0b8cb20a6cf5275c63b",
+  "no_models_trained": true,
+  "no_hypothesis_tests_run": true
+}

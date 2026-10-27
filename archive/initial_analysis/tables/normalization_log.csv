@@ -1,0 +1,8 @@
+column,rows_changed,unique_before,unique_after
+Text,728,707,706
+Sentiment,732,279,191
+Timestamp,0,683,683
+User,732,685,670
+Platform,732,4,3
+Hashtags,732,697,692
+Country,723,115,33

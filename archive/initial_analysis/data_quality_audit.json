@@ -1,0 +1,40 @@
+{
+  "input_path": "data/raw/sentimentdataset.csv",
+  "input_sha256": "725c6f7bc928c2bf741094f37078024b305982523fe6d0b8cb20a6cf5275c63b",
+  "raw_rows": 732,
+  "raw_columns": 15,
+  "clean_rows": 710,
+  "removed_duplicate_rows": 22,
+  "duplicate_definition": "All 13 original substantive columns after NFC/whitespace normalization; export indices excluded; keep first occurrence.",
+  "normalized_sentiment_labels": 191,
+  "single_observation_labels": 81,
+  "labels_with_fewer_than_5_posts": 150,
+  "posts_in_labels_with_fewer_than_5_posts": 271,
+  "date_min": "2010-05-15 15:30:00",
+  "date_max": "2023-10-22 20:45:00",
+  "invalid_timestamps": 0,
+  "date_component_mismatches": {
+    "year": 0,
+    "month": 0,
+    "day": 0,
+    "hour": 0
+  },
+  "invalid_engagement_values": {
+    "likes": 0,
+    "retweets": 0
+  },
+  "raw_missing_cells": 0,
+  "clean_missing_cells": 0,
+  "repeated_text_rows": 8,
+  "repeated_text_groups": 4,
+  "conflicting_label_text_groups": 0,
+  "likes_retweets_pearson": 0.9984702819494382,
+  "likes_retweets_spearman": 0.9971949056857918,
+  "likes_equals_twice_retweets_posts": 412,
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

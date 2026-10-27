@@ -1,0 +1,13 @@
+stage,workflow_item,status,evidence_or_action
+Week 1,Team of 3–4 students,Complete,Kevin yy6074; Kelly lx2455; Yuwei yz13019. Team name confirmed.
+Week 1,Project introduction and objectives,Complete,project_charter.md
+Week 1,Dataset acquisition and initial exploration,Complete,Local source verified; raw inventory; publisher metadata and source hash.
+Week 2,NumPy and Pandas manipulation,Complete,"Executed notebook: normalization, duplicate audit, validation, vectorized features, grouped summaries and quantiles."
+Week 2,Feature exploration,Complete,"Numeric/text summaries, feature redundancy, constant-feature checks and metadata coverage."
+Week 3,EDA and visualization,Complete,Eight earlier charts plus four new charts; supporting tables and executed outputs.
+Week 3,Relevant feature selection,Complete,Text-only baseline selected; feature_selection.csv explains every candidate field.
+Week 3,Problem statement,Complete as proposed scope,"problem_and_features.md defines primary task, target rubric and future evaluation."
+Team action,Confirm proposed responsibilities,Pending team decision,Suggested allocation in project_charter.md; no ownership approval assumed.
+Before Week 5,Review and freeze polarity target,Pending human review,Draft lookup and annotation sample provided; no reviewed ground truth claimed.
+Week 4,Mid-program presentation delivery,Scheduled future work,Presentation outline and speaker notes prepared; delivery and instructor feedback remain outstanding.
+Week 5 onward,Modeling and hypothesis testing,Future work,No models trained or inferential tests run in Weeks 1–3.

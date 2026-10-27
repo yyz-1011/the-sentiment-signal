@@ -1,0 +1,31 @@
+feature,role,reason
+source_record,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.
+source_index_1,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.
+source_index_2,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.
+text,Primary text input,Text available at prediction time; fit vectorizer on training folds only.
+sentiment,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.
+timestamp,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+user,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.
+platform,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+hashtags,EDA only. Reserve for sensitivity analysis,Explicit sentiment cues may make synthetic labels easy to recover; compare after removing cues.
+retweets,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.
+likes,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.
+country,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+year,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+month,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+day,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+hour,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+text_lower,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.
+text_group_id,Split grouping only,Keep identical normalized text together across training and evaluation.
+repeated_text,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+text_char_count,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.
+text_word_count,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.
+total_interactions,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.
+year_month,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+weekday,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+hashtag_list,EDA only. Reserve for sensitivity analysis,Explicit sentiment cues may make synthetic labels easy to recover; compare after removing cues.
+hashtag_count,EDA only. Drop from baseline,Constant at two for all retained posts.
+is_weekend,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.
+log1p_interactions,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.
+hashtag_matches_supplied_label,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.
+polarity_draft,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.

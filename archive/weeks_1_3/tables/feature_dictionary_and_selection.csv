@@ -1,0 +1,31 @@
+feature,role,reason,definition
+source_record,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.,1-based logical CSV record number including header; provenance only.
+source_index_1,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.,Original Unnamed: 0.1 export index; provenance only.
+source_index_2,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.,Original Unnamed: 0 export index; provenance only.
+text,Primary text input,Text available at prediction time; fit vectorizer on training folds only.,"NFC Unicode and whitespace-normalized post; retains case, emoji, punctuation, hashtags and negation."
+sentiment,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.,"Publisher-supplied label, whitespace normalized. No synonyms merged and no inferred polarity."
+timestamp,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,"Parsed source date/time; timezone unspecified, no UTC conversion."
+user,Identifier. Exclude from predictors,Traceability only; arbitrary identifiers can encourage memorization.,Normalized synthetic user identifier; case preserved.
+platform,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,"Normalized source platform, including Twitter as named in the source."
+hashtags,EDA only. Reserve for sensitivity analysis,Explicit sentiment cues may make synthetic labels easy to recover; compare after removing cues.,Whitespace-normalized source hashtag string.
+retweets,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.,"Source retweet count, also present for non-Twitter platforms; comparability unverified."
+likes,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.,Source like count.
+country,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Normalized source location label; Scotland and UK remain separate to avoid silently changing geography.
+year,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Year recomputed from timestamp.
+month,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,"Month recomputed from timestamp, 1–12."
+day,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Day of month recomputed from timestamp.
+hour,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,"Hour recomputed from timestamp, timezone unknown."
+text_lower,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.,Lowercase text feature retaining punctuation/emoji/negation; not a final model vocabulary.
+text_group_id,Split grouping only,Keep identical normalized text together across training and evaluation.,First 16 hex characters of SHA-256 of text_lower; group identical text together when splitting models.
+repeated_text,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,True for every member of a repeated text group after full-record deduplication.
+text_char_count,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.,Character count of normalized text.
+text_word_count,Candidate text transformation or auxiliary feature,Preserve as EDA features; baseline uses text only to avoid duplicate representations.,"Whitespace-separated token count, includes punctuation/emoji tokens."
+total_interactions,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.,"Likes + retweets; count proxy, not engagement rate. No impressions/follower denominator available."
+year_month,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Calendar year-month from timestamp.
+weekday,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Day name from timestamp; timezone unspecified.
+hashtag_list,EDA only. Reserve for sensitivity analysis,Explicit sentiment cues may make synthetic labels easy to recover; compare after removing cues.,"JSON array of unique lowercased hashtag tokens per post, extracted from Hashtags only."
+hashtag_count,EDA only. Drop from baseline,Constant at two for all retained posts.,Number of unique extracted hashtags in the post.
+is_weekend,EDA or evaluation breakdown only,Context and quality flags do not enter the initial text-only baseline.,Boolean derived from timestamp weekday. True for Saturday and Sunday; source timezone unknown.
+log1p_interactions,EDA only. Exclude from text classifier,Post-publication outcomes; engagement fields are highly redundant.,Natural logarithm of 1 + likes + retweets. EDA transformation only; no predictor selection implied.
+hashtag_matches_supplied_label,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.,Diagnostic boolean: an extracted hashtag equals the original sentiment after lowercasing and removing non-alphanumeric characters. Target-derived; never a predictor.
+polarity_draft,Target or target-derived. Exclude from predictors,Supplied/proposed outcomes or a diagnostic derived from the target.,"Unreviewed proposed label lookup: Positive, Negative, Neutral, or Needs review. This is not validated ground truth."

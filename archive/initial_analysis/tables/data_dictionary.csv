@@ -1,0 +1,27 @@
+field,dtype_in_memory,definition
+source_record,int64,1-based logical CSV record number including header; provenance only.
+source_index_1,int64,Original Unnamed: 0.1 export index; provenance only.
+source_index_2,int64,Original Unnamed: 0 export index; provenance only.
+text,object,"NFC Unicode and whitespace-normalized post; retains case, emoji, punctuation, hashtags and negation."
+sentiment,object,"Publisher-supplied label, whitespace normalized. No synonyms merged and no inferred polarity."
+timestamp,datetime64[ns],"Parsed source date/time; timezone unspecified, no UTC conversion."
+user,object,Normalized synthetic user identifier; case preserved.
+platform,object,"Normalized source platform, including Twitter as named in the source."
+hashtags,object,Whitespace-normalized source hashtag string.
+retweets,Int64,"Source retweet count, also present for non-Twitter platforms; comparability unverified."
+likes,Int64,Source like count.
+country,object,Normalized source location label; Scotland and UK remain separate to avoid silently changing geography.
+year,Int64,Year recomputed from timestamp.
+month,Int64,"Month recomputed from timestamp, 1–12."
+day,Int64,Day of month recomputed from timestamp.
+hour,Int64,"Hour recomputed from timestamp, timezone unknown."
+text_lower,object,Lowercase text feature retaining punctuation/emoji/negation; not a final model vocabulary.
+text_group_id,object,First 16 hex characters of SHA-256 of text_lower; group identical text together when splitting models.
+repeated_text,bool,True for every member of a repeated text group after full-record deduplication.
+text_char_count,int64,Character count of normalized text.
+text_word_count,int64,"Whitespace-separated token count, includes punctuation/emoji tokens."
+total_interactions,Int64,"Likes + retweets; count proxy, not engagement rate. No impressions/follower denominator available."
+year_month,object,Calendar year-month from timestamp.
+weekday,object,Day name from timestamp; timezone unspecified.
+hashtag_list,object,"JSON array of unique lowercased hashtag tokens per post, extracted from Hashtags only."
+hashtag_count,int64,Number of unique extracted hashtags in the post.

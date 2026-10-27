@@ -1,0 +1,9 @@
+source_record,text_group_id,text,sentiment,platform,timestamp
+266,dca0f631d6caca3a,"A compassionate rain, tears of empathy falling gently, nurturing the seeds of kindness in the garden of human connections.",Compassionate,Facebook,2021-07-01 12:10:00
+268,a6dad388dc3c6e0e,"Embraced by the hopeful dawn, a gardener sowing seeds of optimism, tending to the blooms of a brighter tomorrow.",Hopeful,Instagram,2022-07-17 06:15:00
+280,dca0f631d6caca3a,"A compassionate rain, tears of empathy falling gently, nurturing the seeds of kindness in the garden of human connections.",Compassionate,Instagram,2021-07-01 12:10:00
+296,a6dad388dc3c6e0e,"Embraced by the hopeful dawn, a gardener sowing seeds of optimism, tending to the blooms of a brighter tomorrow.",Hopeful,Instagram,2022-07-17 06:15:00
+310,52a1db0f5eac50ef,"Shattered dreams lie on the floor like fragments of glass, a mosaic of disappointment crafted by the hands of frustration.",Frustrated,Instagram,2022-01-07 11:10:00
+319,b106c13208ffe918,"Dismissive gestures, a curtain drawn to shield the vulnerability, a stage where emotions take a backseat to the performance of indifference.",Dismissive,Instagram,2018-08-18 14:40:00
+331,b106c13208ffe918,"Dismissive gestures, a curtain drawn to shield the vulnerability, a stage where emotions take a backseat to the performance of indifference.",Dismissive,Instagram,2018-08-18 14:00:00
+332,52a1db0f5eac50ef,"Shattered dreams lie on the floor like fragments of glass, a mosaic of disappointment crafted by the hands of frustration.",Frustrated,Twitter,2022-01-07 11:10:00

@@ -1,0 +1,11 @@
+feature_1,feature_2,n,pearson_r,spearman_rho,status
+likes,retweets,710,0.9984702819494382,0.9971949056857918,computed
+likes,total_interactions,710,0.9998295133650809,0.9997443434043983,computed
+likes,text_word_count,710,0.2094306159941213,0.21128750310805805,computed
+likes,hashtag_count,710,,,undefined: constant feature
+retweets,total_interactions,710,0.9993209866593121,0.9979458483754232,computed
+retweets,text_word_count,710,0.2105232279213703,0.21389132152613022,computed
+retweets,hashtag_count,710,,,undefined: constant feature
+total_interactions,text_word_count,710,0.2098667822742902,0.2116907991407584,computed
+total_interactions,hashtag_count,710,,,undefined: constant feature
+text_word_count,hashtag_count,710,,,undefined: constant feature

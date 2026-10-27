@@ -1,0 +1,5 @@
+feature,lower_fence,upper_fence,flagged_posts,action
+likes,12.5,72.5,18,retained for inspection
+retweets,7.5,35.5,25,retained for inspection
+total_interactions,20.0,108.0,18,retained for inspection
+text_word_count,-3.0,29.0,0,retained for inspection

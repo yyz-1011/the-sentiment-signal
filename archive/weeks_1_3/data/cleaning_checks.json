@@ -1,0 +1,13 @@
+{
+  "raw_rows": 732,
+  "duplicate_rows_removed": 22,
+  "retained_rows": 710,
+  "missing_after_normalization": 0,
+  "invalid_timestamps": 0,
+  "year_mismatches": 0,
+  "month_mismatches": 0,
+  "day_mismatches": 0,
+  "hour_mismatches": 0,
+  "likes_invalid": 0,
+  "retweets_invalid": 0
+}
