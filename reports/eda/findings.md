@@ -16,7 +16,7 @@ The serenity hashtag appears in 15 posts and excitement in 13. Mean interactions
 
 ## Platform sentiment denominator
 
-Kelly’s original stacked chart filters to ten supplied labels before normalizing within platform. The denominators are Facebook 84, Instagram 79, and Twitter 72, totaling 235 posts (33.1% of the full data). It is not the complete platform sentiment distribution. A frequency tie at the cutoff means the original plotted selection includes Despair rather than Nostalgia. The portable notebook fixes that selection explicitly. Serenity’s subset share is not higher on Facebook/Instagram than Twitter, so the original generalized platform preference statement is not retained.
+Liwen’s original stacked chart filters to ten supplied labels before normalizing within platform. The denominators are Facebook 84, Instagram 79, and Twitter 72, totaling 235 posts (33.1% of the full data). It is not the complete platform sentiment distribution. A frequency tie at the cutoff means the original plotted selection includes Despair rather than Nostalgia. The portable notebook fixes that selection explicitly. Serenity’s subset share is not higher on Facebook/Instagram than Twitter, so the original generalized platform preference statement is not retained.
 
 ## Time coverage
 
@@ -32,7 +32,7 @@ Dates span 15 May 2010 through 22 October 2023. In 2023 there are 287 posts, 40.
 
 ![Sentiment and sample volume over time](figures/sentiment_over_time.png)
 
-### Kelly
+### Liwen
 
 ![Platform mean interactions](figures/eda_platform_interactions.png)
 
