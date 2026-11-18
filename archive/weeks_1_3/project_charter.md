@@ -4,9 +4,9 @@
 
 | Member | NetID | Proposed lead responsibility | Proposed cross-review |
 |---|---|---|---|
-| Kevin | yy6074 | Source inventory, cleaning and reproducibility | Check Kelly’s EDA calculations |
-| Kelly | lx2455 | Feature exploration, charts and EDA interpretation | Check Yuwei’s target rubric |
-| Yuwei | yz13019 | Problem statement, target review and presentation narrative | Check Kevin’s cleaning audit |
+| Yizhou | yy6074 | Source inventory, cleaning and reproducibility | Check Liwen’s EDA calculations |
+| Liwen | lx2455 | Feature exploration, charts and EDA interpretation | Check Yuwei’s target rubric |
+| Yuwei | yz13019 | Problem statement, target review and presentation narrative | Check Yizhou’s cleaning audit |
 
 The roster and team name are confirmed by the user. Role allocations are proposals for the team to confirm. Everyone should explain the whole workflow and share annotation work. A fourth member is not required.
 

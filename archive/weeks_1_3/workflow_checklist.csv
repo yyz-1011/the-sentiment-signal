@@ -1,5 +1,5 @@
 stage,workflow_item,status,evidence_or_action
-Week 1,Team of 3–4 students,Complete,Kevin yy6074; Kelly lx2455; Yuwei yz13019. Team name confirmed.
+Week 1,Team of 3–4 students,Complete,Yizhou yy6074; Liwen lx2455; Yuwei yz13019. Team name confirmed.
 Week 1,Project introduction and objectives,Complete,project_charter.md
 Week 1,Dataset acquisition and initial exploration,Complete,Local source verified; raw inventory; publisher metadata and source hash.
 Week 2,NumPy and Pandas manipulation,Complete,"Executed notebook: normalization, duplicate audit, validation, vectorized features, grouped summaries and quantiles."

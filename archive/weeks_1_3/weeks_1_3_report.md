@@ -38,9 +38,9 @@ Use post text as the primary predictor. Keep IDs and label-derived values out of
 
 | Member | NetID | Proposed lead responsibility | Proposed cross-review |
 |---|---|---|---|
-| Kevin | yy6074 | Source inventory, cleaning and reproducibility | Check Kelly’s EDA calculations |
-| Kelly | lx2455 | Feature exploration, charts and EDA interpretation | Check Yuwei’s target rubric |
-| Yuwei | yz13019 | Problem statement, target review and presentation narrative | Check Kevin’s cleaning audit |
+| Yizhou | yy6074 | Source inventory, cleaning and reproducibility | Check Liwen’s EDA calculations |
+| Liwen | lx2455 | Feature exploration, charts and EDA interpretation | Check Yuwei’s target rubric |
+| Yuwei | yz13019 | Problem statement, target review and presentation narrative | Check Yizhou’s cleaning audit |
 
 The roster and team name are confirmed by the user. Role allocations are proposals for the team to confirm. Everyone should explain the whole workflow and share annotation work. A fourth member is not required.
 
@@ -137,12 +137,12 @@ Use relative days because the actual presentation date was not supplied. No cale
 
 | When | Action | Proposed lead | Done when |
 |---|---|---|---|
-| T−7 to T−6 | Confirm roles and reproduce notebook outputs | Kevin | All cells run; roster and file locations verified |
-| T−6 to T−5 | Independently review annotation sample and inspect ambiguous labels | Kelly and Yuwei | Both reviewer columns completed, disagreements listed |
+| T−7 to T−6 | Confirm roles and reproduce notebook outputs | Yizhou | All cells run; roster and file locations verified |
+| T−6 to T−5 | Independently review annotation sample and inspect ambiguous labels | Liwen and Yuwei | Both reviewer columns completed, disagreements listed |
 | T−5 to T−4 | Adjudicate examples and agree target scope | Entire team | Rubric and inclusion policy documented; remaining uncertainty listed |
-| T−4 to T−3 | Choose 5–6 charts and prepare the presentation using the outline | Kelly, with all members | Every claim has a table or chart and a limitation |
+| T−4 to T−3 | Choose 5–6 charts and prepare the presentation using the outline | Liwen, with all members | Every claim has a table or chart and a limitation |
 | T−2 | Rehearse the 8–10 minute narrative | Entire team | All members explain methods and stay within time |
-| T−1 | Freeze the EDA handoff and back up files | Kevin | Notebook, report and presentation materials open on presentation laptop |
+| T−1 | Freeze the EDA handoff and back up files | Yizhou | Notebook, report and presentation materials open on presentation laptop |
 | T | Present and record feedback | Entire team; Yuwei records feedback | Instructor decisions captured, future plan updated |
 
 Target review can continue after the mid-program milestone if the team clearly presents its provisional status. It must finish before training a model on the proposed polarity labels.

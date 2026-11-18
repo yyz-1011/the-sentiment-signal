@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Sentiment Signal: Weeks 1–3</title>
 <style>body{font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#243349;background:#edf2f7;margin:0}main{max-width:1100px;margin:auto;background:white;padding:44px}h1{font-size:38px;line-height:1.2;color:#173b61}h2{font-size:27px;margin-top:40px;color:#173b61}h3{margin-top:28px}a{color:#1765a1}.notice{background:#fff2db;border-left:4px solid #c57c2f;padding:17px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:10px;text-align:left;border-bottom:1px solid #d7e0ea;vertical-align:top}th{background:#eaf0f7}img{max-width:100%;height:auto}figure{margin:30px 0}figcaption{color:#56677c;font-size:14px}.scroll{overflow-x:auto}li{margin:8px 0}pre{white-space:pre-wrap}code{overflow-wrap:anywhere}nav a{margin-right:20px}@media(max-width:650px){main{padding:20px}h1{font-size:30px}table{font-size:12px}}</style><main>
 <p>DATA SCIENCE BOOTCAMP · EDA MILESTONE · 20 OCTOBER 2026</p><h1>The Sentiment Signal<br>Weeks 1–3 handoff</h1>
-<p><b>Kevin</b> (yy6074), <b>Kelly</b> (lx2455), <b>Yuwei</b> (yz13019)</p>
+<p><b>Yizhou</b> (yy6074), <b>Liwen</b> (lx2455), <b>Yuwei</b> (yz13019)</p>
 <p class="notice"><b>Technical EDA work is complete.</b> Role assignments remain proposed. The primary prediction problem and feature set are specified; polarity annotations remain unreviewed. Modeling begins in Week 5. The publisher explicitly identifies the dataset as ChatGPT-generated synthetic content.</p>
 <nav><a href="#workflow">Workflow</a><a href="#findings">Findings</a><a href="#charts">Charts</a><a href="#problem">Problem and features</a><a href="#presentation">Presentation outline</a></nav>
 <h2 id="workflow">Workflow completion</h2><div class="scroll"><table class="dataframe">
@@ -18,7 +18,7 @@
       <td>Week 1</td>
       <td>Team of 3–4 students</td>
       <td>Complete</td>
-      <td>Kevin yy6074; Kelly lx2455; Yuwei yz13019. Team name confirmed.</td>
+      <td>Yizhou yy6074; Liwen lx2455; Yuwei yz13019. Team name confirmed.</td>
     </tr>
     <tr>
       <td>Week 1</td>
@@ -101,13 +101,13 @@
 </thead>
 <tbody>
 <tr>
-<td>Kevin</td>
+<td>Yizhou</td>
 <td>yy6074</td>
 <td>Source inventory, cleaning and reproducibility</td>
-<td>Check Kelly’s EDA calculations</td>
+<td>Check Liwen’s EDA calculations</td>
 </tr>
 <tr>
-<td>Kelly</td>
+<td>Liwen</td>
 <td>lx2455</td>
 <td>Feature exploration, charts and EDA interpretation</td>
 <td>Check Yuwei’s target rubric</td>
@@ -116,7 +116,7 @@
 <td>Yuwei</td>
 <td>yz13019</td>
 <td>Problem statement, target review and presentation narrative</td>
-<td>Check Kevin’s cleaning audit</td>
+<td>Check Yizhou’s cleaning audit</td>
 </tr>
 </tbody>
 </table>
@@ -383,19 +383,19 @@
   </tbody>
 </table></div>
 <h2 id="presentation">Week 4 presentation preparation</h2><h1>Mid-program presentation outline</h1>
-<p>The Sentiment Signal. Kevin (yy6074), Kelly (lx2455), Yuwei (yz13019).
+<p>The Sentiment Signal. Yizhou (yy6074), Liwen (lx2455), Yuwei (yz13019).
 Suggested duration: 8–10 minutes, plus questions. Speaking assignments below are proposals.</p>
-<h2>1. Project and team (45 seconds, Kevin)</h2>
+<h2>1. Project and team (45 seconds, Yizhou)</h2>
 <p>Introduce the team. Explain the goal: build a reproducible sentiment-analysis workflow using a synthetic social media corpus. State immediately that the publisher generated the content with ChatGPT. The intended output is a demonstration classifier and an EDA narrative. No real public-opinion claims.</p>
-<h2>2. Dataset and provenance (60 seconds, Kevin)</h2>
+<h2>2. Dataset and provenance (60 seconds, Yizhou)</h2>
 <p>732 records, 15 columns; unit is a simulated post. Introduce text, supplied emotion labels, timestamps, platform, hashtags, likes/retweets and location. Use the raw inventory and data dictionary. Name the Kaggle source and synthetic disclosure. Note unknown timezone and annotation protocol.</p>
-<h2>3. Cleaning and audit (60 seconds, Kevin)</h2>
+<h2>3. Cleaning and audit (60 seconds, Yizhou)</h2>
 <p>Whitespace inflates labels and platform values. Normalize strings, exclude export indices from record matching, remove 22 repeated records, retain 710 posts. Keep removed-row provenance. All date and engagement checks pass. Explain why identical text with differing metadata remains but gets a split-group flag. Show the normalization log and quality audit.</p>
-<h2>4. Sentiment support (60 seconds, Kelly)</h2>
+<h2>4. Sentiment support (60 seconds, Liwen)</h2>
 <p>Show charts 01 and 09. The cleaned sample has 191 original labels; 81 have only one post. Positive, Joy and Excitement are the largest individual labels. Positive is one label, not the count of all positive emotions. Sparse support and overlapping meanings motivate a reviewed polarity target.</p>
-<h2>5. Coverage and composition (75 seconds, Kelly)</h2>
+<h2>5. Coverage and composition (75 seconds, Liwen)</h2>
 <p>Show chart 10 plus 03/04 if time permits. Coverage is uneven across years and locations. The latest year ends in October. Platform counts: Instagram 251, Twitter 236, Facebook 223. Compare sample composition; avoid presenting counts as platform adoption or changes in real public mood. Country labels mix Scotland and UK.</p>
-<h2>6. Engagement and text features (75 seconds, Kelly)</h2>
+<h2>6. Engagement and text features (75 seconds, Liwen)</h2>
 <p>Show charts 06, 11 and 12 selectively. Likes and retweets correlate at 0.9985. Every post has two hashtags. Text is short. Hashtags often directly cue a supplied label. Explain the implication: engagement fields are redundant and separate hashtags need sensitivity checks. These are feature observations, not significant or causal effects.</p>
 <h2>7. Problem statement and selected features (75 seconds, Yuwei)</h2>
 <p>Classify previously unseen simulated post text into reviewed Positive/Negative/Neutral polarity. Show the selected feature list: text is the baseline predictor; text_group_id controls splitting; supplied labels are targets; IDs, metadata and engagement are excluded from baseline predictors. Explain that the provided polarity mapping is unreviewed and contains an explicit review queue.</p>
@@ -428,13 +428,13 @@ Suggested duration: 8–10 minutes, plus questions. Speaking assignments below a
 <tr>
 <td>T−7 to T−6</td>
 <td>Confirm roles and reproduce notebook outputs</td>
-<td>Kevin</td>
+<td>Yizhou</td>
 <td>All cells run; roster and file locations verified</td>
 </tr>
 <tr>
 <td>T−6 to T−5</td>
 <td>Independently review annotation sample and inspect ambiguous labels</td>
-<td>Kelly and Yuwei</td>
+<td>Liwen and Yuwei</td>
 <td>Both reviewer columns completed, disagreements listed</td>
 </tr>
 <tr>
@@ -446,7 +446,7 @@ Suggested duration: 8–10 minutes, plus questions. Speaking assignments below a
 <tr>
 <td>T−4 to T−3</td>
 <td>Choose 5–6 charts and prepare the presentation using the outline</td>
-<td>Kelly, with all members</td>
+<td>Liwen, with all members</td>
 <td>Every claim has a table or chart and a limitation</td>
 </tr>
 <tr>
@@ -458,7 +458,7 @@ Suggested duration: 8–10 minutes, plus questions. Speaking assignments below a
 <tr>
 <td>T−1</td>
 <td>Freeze the EDA handoff and back up files</td>
-<td>Kevin</td>
+<td>Yizhou</td>
 <td>Notebook, report and presentation materials open on presentation laptop</td>
 </tr>
 <tr>

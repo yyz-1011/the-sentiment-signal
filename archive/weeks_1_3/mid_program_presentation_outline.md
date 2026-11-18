@@ -1,29 +1,29 @@
 # Mid-program presentation outline
 
-The Sentiment Signal. Kevin (yy6074), Kelly (lx2455), Yuwei (yz13019).
+The Sentiment Signal. Yizhou (yy6074), Liwen (lx2455), Yuwei (yz13019).
 Suggested duration: 8–10 minutes, plus questions. Speaking assignments below are proposals.
 
-## 1. Project and team (45 seconds, Kevin)
+## 1. Project and team (45 seconds, Yizhou)
 
 Introduce the team. Explain the goal: build a reproducible sentiment-analysis workflow using a synthetic social media corpus. State immediately that the publisher generated the content with ChatGPT. The intended output is a demonstration classifier and an EDA narrative. No real public-opinion claims.
 
-## 2. Dataset and provenance (60 seconds, Kevin)
+## 2. Dataset and provenance (60 seconds, Yizhou)
 
 732 records, 15 columns; unit is a simulated post. Introduce text, supplied emotion labels, timestamps, platform, hashtags, likes/retweets and location. Use the raw inventory and data dictionary. Name the Kaggle source and synthetic disclosure. Note unknown timezone and annotation protocol.
 
-## 3. Cleaning and audit (60 seconds, Kevin)
+## 3. Cleaning and audit (60 seconds, Yizhou)
 
 Whitespace inflates labels and platform values. Normalize strings, exclude export indices from record matching, remove 22 repeated records, retain 710 posts. Keep removed-row provenance. All date and engagement checks pass. Explain why identical text with differing metadata remains but gets a split-group flag. Show the normalization log and quality audit.
 
-## 4. Sentiment support (60 seconds, Kelly)
+## 4. Sentiment support (60 seconds, Liwen)
 
 Show charts 01 and 09. The cleaned sample has 191 original labels; 81 have only one post. Positive, Joy and Excitement are the largest individual labels. Positive is one label, not the count of all positive emotions. Sparse support and overlapping meanings motivate a reviewed polarity target.
 
-## 5. Coverage and composition (75 seconds, Kelly)
+## 5. Coverage and composition (75 seconds, Liwen)
 
 Show chart 10 plus 03/04 if time permits. Coverage is uneven across years and locations. The latest year ends in October. Platform counts: Instagram 251, Twitter 236, Facebook 223. Compare sample composition; avoid presenting counts as platform adoption or changes in real public mood. Country labels mix Scotland and UK.
 
-## 6. Engagement and text features (75 seconds, Kelly)
+## 6. Engagement and text features (75 seconds, Liwen)
 
 Show charts 06, 11 and 12 selectively. Likes and retweets correlate at 0.9985. Every post has two hashtags. Text is short. Hashtags often directly cue a supplied label. Explain the implication: engagement fields are redundant and separate hashtags need sensitivity checks. These are feature observations, not significant or causal effects.
 
