@@ -8,4 +8,4 @@ Kelly’s copy fixes the ten selected sentiment labels to match the supplied fig
 
 The reusable cleaning source has portable defaults. The original EDA source has its narrative median formatting corrected to retain fractional values. Archived notebooks and reports are historical snapshots and may retain obsolete execution instructions or draft interpretations. The current README, findings and notebooks are the judge-facing interpretation.
 
-No new general license is assigned to team-authored work. Dataset CC0 metadata is preserved separately. Background artwork and its generation prompts are retained in presentation/theme_assets. The validation report identifies which checks were actually run.
+No new general license is assigned to team-authored work. Dataset CC0 metadata is preserved separately. The midterm presentation assets are not part of this checkout. The validation report identifies which checks were actually run.

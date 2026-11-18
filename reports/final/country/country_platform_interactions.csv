@@ -1,0 +1,16 @@
+country_analysis,platform,posts,mean_interactions,median_interactions
+Australia,Facebook,23,60.260870,54.000000
+Australia,Instagram,26,55.730769,53.500000
+Australia,Twitter,21,59.476190,57.000000
+Canada,Facebook,43,59.767442,67.000000
+Canada,Instagram,42,63.119048,62.500000
+Canada,Twitter,46,60.782609,60.000000
+India,Facebook,20,55.900000,53.500000
+India,Instagram,19,59.631579,60.000000
+India,Twitter,29,57.206897,53.000000
+UK,Facebook,41,58.024390,59.000000
+UK,Instagram,53,65.962264,67.000000
+UK,Twitter,47,59.574468,53.000000
+USA,Facebook,59,63.305085,60.000000
+USA,Instagram,71,70.464789,67.000000
+USA,Twitter,54,65.796296,60.000000

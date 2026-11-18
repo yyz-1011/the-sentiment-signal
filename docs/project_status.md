@@ -1,9 +1,11 @@
-# Project status at the midterm
+# Final project status
 
-Completed: dataset acquisition, cleaning and audit, data dictionaries, NumPy/Pandas feature exploration, six team EDA figures, supporting tables, integrated presentation, and an editable timed script. Yizhou completed cleaning and feature exploration; Yuwei completed sentiment, interaction and time EDA; Liwen completed platform and hashtag EDA.
+## Available
 
-The presentation contains seven main slides planned for 4 minutes 45 seconds. All three team members are required to attend; attendance is not recorded as completed here.
+Cleaning and feature exploration; the original sentiment, time, platform and hashtag EDA; country coverage, original-label shares, and a descriptive platform-mix sensitivity check. The raw and cleaned snapshots and earlier outcomes remain available.
 
-Open decisions: the target taxonomy, treatment of rare labels, independent annotation review, evaluation splits, and whether to add real annotated posts. Archived polarity labels remain unreviewed proposals. No model performance or hypothesis-test result is available.
+## In progress
 
-Weeks 5–9: initial models, hypothesis testing, final model interpretation, and the final presentation. Judges’ feedback should inform these stages. Earlier proposed role assignments and timelines in archive/ are superseded by this current contribution summary.
+Review and adjudication of broad sentiment categories; country interpretation with reviewed labels; model development and a single reserved-test evaluation; final figures and presentation. The evaluation runner is available, but there are no reviewed labels or classifier results committed. An optional interface is deferred until the analytical results are ready.
+
+See the [final project plan](final_project_plan.md) for milestones and acceptance criteria. The earlier midterm slide and speaker-script links were obsolete on GitHub, so the README now points to existing resources and the final presentation outline.
