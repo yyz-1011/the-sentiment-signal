@@ -1,5 +1,7 @@
 # Final project plan
 
+See [remaining tasks and team responsibilities](task_division.md) for individual assignments, label-review batches, handoffs, and completion checks.
+
 ## Problem and goals
 
 An analyst comparing sentiment across countries needs to distinguish differences in the posts from differences in how many posts each country contributes, which platforms they appear on, and how sentiment is labeled.
