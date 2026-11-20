@@ -11,13 +11,18 @@ An analyst comparing sentiment across countries needs to distinguish differences
 
 The sample is synthetic. Its country field is a supplied geographic label, not an observation of culture, nationality, language, or residence. Country comparisons describe the sample only. Interactions means likes plus retweets; impressions are unavailable. A sentiment classifier and an optional exploration demo replace the recommendation-system language in the suggested timeline.
 
-| Week | Work and exit criteria | Proposed lead |
+| Phase and deadline | Work and exit criteria | Proposed lead |
 |---|---|---|
-| 5 | Agree the problem and label rubric; independently label and adjudicate a pilot; finish review; check class and group support; compare baselines on grouped development folds. If support fails, explain and resolve before scoring. | Yizhou, with all members reviewing |
-| 6 | Explore coverage, sentiment shares, interactions and platform composition. Check 2023, sparse groups, and UK/Scotland mapping. Keep unexpected or null findings and alternative explanations in the exploration log. | Yuwei; Liwen verifies denominators |
-| 7 | Review model errors on development data and compare with/without hashtags on the same splits. Review the strongest country patterns against plausible alternative explanations. Freeze model and label decisions. | Yizhou and Liwen; Yuwei checks interpretation |
-| 8 | Run the final holdout once; freeze figures, versions, and claims. Reproduce from a clean checkout. Build an optional country filter or prediction demo only if the evidence and evaluation are ready. Keep screenshots as a fallback. | All; Liwen leads visuals/demo |
-| 9 | Present the question, data, cross-country evidence, classifier results or feasibility limit, and what real-data validation would require. Confirm the time limit and rehearse with Q&A. | All |
+| Scope/pilot — 19–20 November | Agree questions and rubric; independently review pilot and adjudicate; confirm presentation logistics | Yizhou and Liwen review; Yuwei adjudicates |
+| Reviewed labels — 21–23 November | Review remaining records; resolve disagreements; version labels, exclusions and class/group support | All; Yizhou coordinates |
+| Development and exploration — 24–27 November | Compare baseline and text models on development data; complete reviewed country comparisons, platform/time checks, errors and hashtag sensitivity | Yizhou: models; Yuwei: countries; Liwen: checks/figures |
+| Configuration freeze — 28 November | Agree data, labels, splits and model configuration before test evaluation; omit optional UI if necessary | All |
+| Final evidence — 29 November | Run reserved test once; publish model results or a feasibility limitation; freeze country findings and final claims | Yizhou; all cross-review |
+| Deck/script — 30 November | Complete a timed narrative from verified results; add repository URL and demonstration fallback if applicable | Liwen integrates; all contribute |
+| Verification/rehearsal — 1–2 December | Independent clean-checkout run; two timed rehearsals; final sign-off, submission and offline backup | All |
+| Presentation — 3 December | Present problem, methodology, country evidence, model results or limits, and future validation needs | All attend; speaking roles agreed in rehearsal |
+
+If an official submission deadline is earlier, move the relevant freeze and delivery tasks forward. Treat 26–27 November as a correction buffer. Optional UI work must not delay evidence, validation or rehearsal. If reviewed labels or class support are not ready, follow the feasibility fallback in the task division rather than bypassing review or evaluation safeguards.
 
 ## How to explore
 

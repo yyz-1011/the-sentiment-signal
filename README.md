@@ -2,6 +2,8 @@
 
 **Final project: cross-country sentiment exploration and text classification**
 
+**Planned Final Presentation: Thursday, December 3, 2026.** Review the [dated team schedule](docs/task_division.md#dated-schedule-through-3-december): labels by November 23, configuration freeze November 28, final evidence November 29, deck/script November 30, and verification/rehearsals December 1–2. Session time, duration and the official submission cutoff remain to be confirmed.
+
 How do sentiment and recorded interactions differ across country groups in our synthetic social media sample? How much do those comparisons depend on platform mix, time coverage, and label quality? We also plan to evaluate whether post text can predict reviewed sentiment categories better than a majority-class baseline.
 
 Start with the [country findings](reports/final/country/findings.md), the [final project plan](docs/final_project_plan.md), the [task division and team handoffs](docs/task_division.md), and the [label review and model evaluation guide](docs/label_review.md). [Data provenance](data/README.md) explains how 732 source records became 710 cleaned posts. The country tables are ready to review; model scores and final presentation materials are pending.

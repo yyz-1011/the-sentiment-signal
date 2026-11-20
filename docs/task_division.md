@@ -1,6 +1,6 @@
 # Remaining tasks and team responsibilities
 
-Prepared 19 November 2026 against repository commit `c88e399`. This document turns the [final project plan](final_project_plan.md) into individual assignments, handoffs, and completion checks. Assignments are proposed for the team to confirm. No presentation date or final-session duration has been supplied; checkpoints are ordered by dependency rather than calendar dates.
+Updated 19 November 2026 using the repository state at commit `8638cf8`. This document turns the [final project plan](final_project_plan.md) into individual assignments, handoffs, and completion checks. The planning presentation date is **Thursday, 3 December 2026**. Proposed working deadlines below use America/New_York local dates. Assignments remain for the team to confirm; the session time, duration, and official submission cutoff are still unknown. Dates are targets, not records of completed work.
 
 ## Shared purpose and current status
 
@@ -164,17 +164,28 @@ An interface is optional. Build one only after analysis and evaluation are finis
 
 **Done when:** Yuwei approves the geographic interpretation, Yizhou approves model numbers, all three approve the claims, and the final narrative fits the confirmed session duration.
 
-## Dependency checkpoints
+## Dated schedule through 3 December
 
-| Checkpoint | Required outcome | Parallel work |
-|---|---|---|
-| A — Scope and pilot | Questions and rubric agreed; pilot disagreements resolved | Reproduction and country coverage |
-| B — Reviewed labels | All records adjudicated; exclusions and class support checked | Label-independent sensitivity analysis |
-| C — Development evidence | Country findings and model comparisons reviewed | Draft figures and deck structure |
-| D — Results freeze | Configuration frozen; final test completed once; claims approved | Repository cleanup and script writing |
-| E — Presentation readiness | Fresh-checkout verification, final deck, rehearsal and fallback | Q&A preparation |
+Start on 19 November; work proceeds in parallel where dependencies allow. Existing course Week 5–9 labels describe phases, not additional weeks available before this presentation.
 
-Agree target dates at the next team meeting. Aim to freeze results several days before presenting. The final presentation date and duration are not assumed from the midterm. Hold two short checkpoints each week: agree the question and deliverable, then review the evidence and next action.
+| Dates in 2026 | Checkpoint and required outcome | Yizhou | Yuwei | Liwen |
+|---|---|---|---|---|
+| 19–20 November | **A — Scope and pilot, due 20 November.** Agree the question and rubric; independently review 54 pilot posts and adjudicate disagreements. Confirm the final-session time, duration and submission requirements. | Run pilot preparation, review independently, verify environment and data version | Adjudicate pilot; inspect country/year coverage | Independently review pilot; check existing charts and presentation outline |
+| 21–23 November | **B — Reviewed labels, due 23 November.** Finish all 656 remaining records, adjudication, exclusions and class/group-support checks. Revisit pilot decisions if the rubric changed. | Coordinate batches, review assigned records, validate and version all 710 decisions | Review assigned records and adjudicate Batch A; continue label-independent country comparisons | Review assigned records and adjudicate Batch C; verify platform coverage |
+| 24–25 November | First country findings and development model comparison due 25 November | Run grouped development evaluation; document baseline, candidate models and support | Produce reviewed within-country shares and exclusion rates; compare within platforms and supported time subsets | Check denominators, inspect platform/hashtag explanations and prepare initial final figures |
+| 26–27 November | **C — Development evidence, due 27 November.** Cross-review country conclusions, model errors and sensitivity checks. Keep these days as a correction buffer, not a new feature sprint. | Review errors and a small set of development refinements; send result tables | Complete two or three claim–evidence–limitation records, including null findings | Verify country results and hashtag sensitivity; assemble a complete narrative draft |
+| 28 November | **Configuration freeze.** Agree label version, eligibility, split IDs, primary model and configuration before opening the test results. Decide whether to omit the optional UI. | Record frozen versions and model-selection decision | Approve geographic interpretation and limits | Approve model presentation and essential figures; drop UI if it threatens readiness |
+| 29 November | **D — Results freeze.** Run the reserved test once after configuration approval; document baseline and selected-model results or a feasibility limitation. Freeze analytical claims. | Execute final evaluation in the same output directory; publish approved tables and errors | Cross-check final country figures against tables | Cross-check model numbers and integrate all verified results |
+| 30 November | Complete deck and speech draft due; establish the final submission bundle | Supply reproducibility and model-method explanation | Supply country findings and Q&A answers | Assemble slides and script to fit the confirmed duration; add repository URL and optional demo fallback |
+| 1 December | Independent clean-checkout run and first timed rehearsal | Resolve reproduction issues and verify README links | Independently run the project, check chart claims and join rehearsal | Lead timed deck walkthrough and revise pacing |
+| 2 December | **E — Presentation readiness.** Second rehearsal, final sign-off, accessible files and offline backup. Submit by the official cutoff if earlier than the presentation. | Verify repository release and submission contents | Verify interpretation, Q&A readiness and backup materials | Freeze slide/script layout and test display or demo fallback |
+| **3 December** | **Final Presentation.** Arrive at the confirmed session time; use only the approved version. | Attend; explain data, labels and modeling as needed | Attend; explain country results and interpretation | Attend; operate or present visuals/demo as agreed |
+
+**Freeze rules:** after 29 November, analytical changes are for documented factual or reproducibility corrections, not further test-driven model tuning. Rerun affected checks and obtain cross-review for a necessary correction. Visual and pacing edits may continue through 2 December without changing verified claims. Do not assume the midterm five-minute limit applies. Follow any earlier official submission cutoff once known.
+
+**If a checkpoint slips:** assess label completion and class support on 23 November. If labels are unfinished, prioritize adjudication and remove optional features; do not manufacture reviewed labels or present unreviewed scores. If adequate support or reliable evaluation cannot be achieved by the 28 November decision, present the documented modeling feasibility limitation and the verified country analysis. Keep the 29 November evidence cutoff and 1–2 December verification/rehearsal buffer. Never turn a missed deadline into a completed status without evidence.
+
+Keep brief progress checks on 20, 23, 25, 27 and 29 November, then use the 1 and 2 December rehearsals as final readiness checks. Record actual completion, open blockers and the owner of the next action in the team notes. No automated reminders or calendar invitations are created by this schedule.
 
 ## Final joint sign-off
 
@@ -185,7 +196,7 @@ Agree target dates at the next team meeting. Aim to freeze results several days 
 - [ ] Country comparisons have support, denominators and appropriate limits.
 - [ ] Exploratory findings and final model evaluation are distinguished.
 - [ ] A teammate reproduces the project from a fresh checkout.
-- [ ] Final duration is confirmed; slides, script and optional demo are rehearsed.
+- [ ] The 3 December session time, final duration and official submission cutoff are confirmed; slides, script and any demo fallback are rehearsed by 2 December.
 - [ ] Names are Yizhou, Yuwei and Liwen; the team voice uses “we.”
 - [ ] Everyone can explain label review, geography versus culture, imbalance, evaluation and limitations.
 
