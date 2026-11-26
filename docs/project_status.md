@@ -6,6 +6,8 @@
 
 Cleaning and feature exploration; the original sentiment, time, platform and hashtag EDA; country coverage, original-label shares, and a descriptive platform-mix sensitivity check. The raw and cleaned snapshots and earlier outcomes remain available.
 
+The [label-independent country extension](yuwei_handoff.md) now supplies an executed fourth notebook, five date restrictions, within-platform distributions, all 480 country/platform/window support cells, separate fixed-weight checks, an exact-text sensitivity check, five PNG/SVG figures and three evidence records. Its calculations and reproduction checks are complete; Liwen's independent review and team approval remain pending.
+
 ## In progress
 
 Review and adjudication of broad sentiment categories; country interpretation with reviewed labels; model development and a single reserved-test evaluation; final figures and presentation. The evaluation runner is available, but there are no reviewed labels or classifier results committed. An optional interface is deferred until the analytical results are ready.

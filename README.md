@@ -17,6 +17,8 @@ Start with the [country findings](reports/final/country/findings.md), the [final
 
 The publisher describes this data as synthetic. Country labels do not directly measure culture, and likes plus retweets are recorded counts rather than exposure-normalized rates.
 
+Yuwei's [label-independent country handoff](docs/yuwei_handoff.md) adds five common date views, within-platform interaction distributions, explicit sparse-cell support and an arithmetic review of existing platform/hashtag tables. See the [executed country notebook](notebooks/04_country_comparisons.ipynb) and [standalone country report](reports/final/country/label_independent/report.html). Calculations are complete; independent team review and reviewed-label sentiment comparisons remain pending.
+
 ## Run locally
 
 Use Python 3.12. From the repository root:
@@ -27,6 +29,8 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/reproduce.py
 python scripts/country_explore.py
+python scripts/country_comparisons.py
+python scripts/check_country_comparisons.py
 python scripts/prepare_label_review.py
 ```
 

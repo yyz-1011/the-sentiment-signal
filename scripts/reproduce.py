@@ -22,7 +22,7 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--refresh-notebooks', action='store_true', help='Refresh saved output cells in the three main notebooks after execution.')
+    parser.add_argument('--refresh-notebooks', action='store_true', help='Refresh saved output cells in all analysis notebooks after execution.')
     args = parser.parse_args()
     OUT.mkdir(exist_ok=True)
     raw_path = ROOT/'data/raw/sentimentdataset.csv'

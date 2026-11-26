@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "source_rows": 710,
+  "country_groups": 32,
+  "windows": 5,
+  "main_platform_window_cells": 75,
+  "all_country_platform_window_cells": 480,
+  "existing_handoff_checks": 6,
+  "weighting_fixture_and_calendar_boundaries": "passed",
+  "raw_inputs_unchanged": true,
+  "team_review": "pending"
+}

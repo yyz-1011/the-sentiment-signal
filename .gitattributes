@@ -1,0 +1,3 @@
+# Keep dataset/report bytes unchanged on checkout, including historical line endings.
+# Automatic CRLF conversion otherwise breaks the canonical cleaned CSV SHA-256.
+*.csv -text

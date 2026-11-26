@@ -2,6 +2,8 @@
 
 The supported entry point is `python scripts/reproduce.py` from the repository root after installing requirements.txt in Python 3.12. The version pins record the environment used to verify this handoff. A different Python or library version has not been tested. For interactive editing, install JupyterLab separately with `python -m pip install jupyterlab` and run `jupyter lab`; open the notebooks in order. The automated runner does not require JupyterLab.
 
+The label-independent country extension is `python scripts/country_comparisons.py`, followed by `python scripts/check_country_comparisons.py`. The reproduction runner automatically includes `04_country_comparisons.ipynb`. Its source hash and denominator checks, runtime versions and published review-copy outputs are documented in [Yuwei's handoff](yuwei_handoff.md). CSV automatic line-ending conversion is disabled by `.gitattributes` so that Windows checkouts preserve the canonical input byte hashes.
+
 The runner uses the current Python executable as the notebook kernel. It writes new outputs to generated/ and executed notebook copies to generated/executed_notebooks/. Pass `--refresh-notebooks` to replace the main notebooks’ saved output cells with the successful fresh run. This flag is used when preparing this package; ordinary reproduction leaves committed snapshots alone.
 
 The runner checks the source SHA-256, raw and cleaned shapes, shared source hash, cleaning output equality, duplicate reconciliation, notebook execution, original label counts, annual counts and tabulated interaction medians. It recomputes current source tables but does not regenerate fixed Word reports or PowerPoint styling. Those are saved handoff artifacts.
