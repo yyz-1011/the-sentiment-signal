@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-11-27",
+  "starting_commit": "30b74f76653a6af56f558c264107a466f0f13571",
+  "cleaned_rows": 710,
+  "columns": 26,
+  "original_labels": 191,
+  "original_singleton_labels": 81,
+  "text_groups": 706,
+  "cleaned_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "review_assignment_rows": 710,
+  "review_batch_sizes": {
+    "B": 219,
+    "A": 219,
+    "C": 218,
+    "pilot": 54
+  },
+  "completed_human_decisions": 0,
+  "supervised_project_models_trained": 0,
+  "final_test_opened": false,
+  "fresh_environment_reproduction": "passed",
+  "country_tables_byte_match": true,
+  "engineering_tests_passed": 6,
+  "remaining_blocker": "Independent reviewer decisions and adjudication; no reviewed targets supplied.",
+  "machine_suggestions": "optional VADER rules only; not validated ground truth",
+  "human_approval_claimed": false,
+  "other_members_independent_reproduction_claimed": false
+}

@@ -2,6 +2,10 @@
 
 Updated 19 November 2026 using the repository state at commit `8638cf8`. This document turns the [final project plan](final_project_plan.md) into individual assignments, handoffs, and completion checks. The planning presentation date is **Thursday, 3 December 2026**. Proposed working deadlines below use America/New_York local dates. Assignments remain for the team to confirm; the session time, duration, and official submission cutoff are still unknown. Dates are targets, not records of completed work.
 
+## Actual progress on 27 November
+
+See [Yizhou's work report](yizhou_work_report.md) for completed preparation and the [operational handoff](downstream_handoff.md) for each member's next action. Full review worksheets, machine-only triage, a validator and tested evaluation code are ready. The user confirmed no independent review is complete. November 23 label completion is overdue; no reviewed classifier scores or final-test results exist. Do not treat the remaining planned freeze dates as completed work.
+
 ## Shared purpose and current status
 
 We will investigate how observed sentiment and recorded interactions differ across adequately represented country groups, check whether comparisons depend on sample composition, and evaluate whether text can predict reviewed sentiment categories better than a simple baseline.
@@ -45,7 +49,7 @@ Use positive, negative or neutral for the dominant expressed evaluation. Record 
 
 ### Remaining records
 
-Yizhou prepares worksheets for the **656 non-pilot records**. This is a remaining task; the existing pilot generator does not do it. Split them into the following mixed-country, mixed-platform batches:
+The complete blank worksheets for the **656 non-pilot records** are now committed in `data/label_review/v1/`. Yizhou prepared them using `python scripts/prepare_label_review.py --full-package`; independent review and adjudication remain outstanding. Split them into the following mixed-country, mixed-platform batches:
 
 | Batch | Posts | Independent reviewers | Adjudicator |
 |---|---:|---|---|

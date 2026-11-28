@@ -1,0 +1,14 @@
+{
+  "source_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "seed": 6074,
+  "full_package": true,
+  "rows": 710,
+  "batch_sizes": {
+    "pilot": 54,
+    "A": 219,
+    "B": 219,
+    "C": 218
+  },
+  "completed_decisions": 0,
+  "status": "blank worksheets; independent human review pending"
+}

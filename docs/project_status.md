@@ -11,3 +11,9 @@ Cleaning and feature exploration; the original sentiment, time, platform and has
 Review and adjudication of broad sentiment categories; country interpretation with reviewed labels; model development and a single reserved-test evaluation; final figures and presentation. The evaluation runner is available, but there are no reviewed labels or classifier results committed. An optional interface is deferred until the analytical results are ready.
 
 See the [final project plan](final_project_plan.md) for milestones and acceptance criteria. The earlier midterm slide and speaker-script links were obsolete on GitHub, so the README now points to existing resources and the final presentation outline.
+
+## Actual progress recorded 27 November
+
+The user confirmed that independent label review has not started. Yizhou's preparation workstream now has a complete blank 54/219/219/218 review allocation, an adjudication template, optional machine-only suggestions, a structural label validator, richer development/error/hashtag exports, engineering tests and a successful fresh-environment reproduction. See [the work report](yizhou_work_report.md) and [downstream handoff](downstream_handoff.md).
+
+The blank decisions are not completed labels. No project classifier has been evaluated and no final test was opened. Earlier planned deadlines remain targets, not proof of completion. The November 23 review milestone is overdue; prioritize independent review now and use the existing infeasibility fallback if its requirements cannot be met before the final evidence cutoff.

@@ -6,7 +6,13 @@
 
 How do sentiment and recorded interactions differ across country groups in our synthetic social media sample? How much do those comparisons depend on platform mix, time coverage, and label quality? We also plan to evaluate whether post text can predict reviewed sentiment categories better than a majority-class baseline.
 
-Start with the [country findings](reports/final/country/findings.md), the [final project plan](docs/final_project_plan.md), the [task division and team handoffs](docs/task_division.md), and the [label review and model evaluation guide](docs/label_review.md). [Data provenance](data/README.md) explains how 732 source records became 710 cleaned posts. The country tables are ready to review; model scores and final presentation materials are pending.
+Start with the [country findings](reports/final/country/findings.md), the [final project plan](docs/final_project_plan.md), the [task division and team handoffs](docs/task_division.md), and the [label review and model evaluation guide](docs/label_review.md). [Data provenance](data/README.md) explains how 732 source records became 710 cleaned posts. The country tables and full review worksheets are ready; independent adjudication, model scores and final presentation materials are pending.
+
+## Yizhou preparation handoff — 27 November
+
+Start with the [step-by-step work report](docs/yizhou_work_report.md) and [member-specific downstream actions](docs/downstream_handoff.md). A fresh-environment reproduction passed, the complete [blank review package](data/label_review/v1/) covers all 710 posts, and the evaluation workflow has engineering tests and richer development exports. The optional [machine suggestions](data/machine_assistance/v1/) are a review aid, **not human-reviewed labels or ground truth**.
+
+Independent review is still outstanding. No supervised project scores, final model, or reserved-test results are claimed. The November 23 label target was missed; complete review before the planned November 28 configuration decision, or use the documented feasibility fallback. Keep the December 1–2 verification and rehearsal buffer.
 
 ## Evidence so far
 
@@ -28,6 +34,7 @@ python -m pip install -r requirements.txt
 python scripts/reproduce.py
 python scripts/country_explore.py
 python scripts/prepare_label_review.py
+python -m unittest discover -s tests -v
 ```
 
 The first runner checks cleaning and reruns the existing notebooks. The country and review scripts write to `generated/`. After independent label review and adjudication, follow the [evaluation guide](docs/label_review.md). [Reproduction details](docs/reproducibility.md) cover the historical notebook outputs and dependencies.

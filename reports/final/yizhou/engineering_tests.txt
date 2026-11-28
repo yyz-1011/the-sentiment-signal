@@ -1,0 +1,11 @@
+test_assembly_does_not_export_blank_targets (test_final_workflow.WorkflowTests.test_assembly_does_not_export_blank_targets) ... ok
+test_blank_and_incomplete_labels_rejected (test_final_workflow.WorkflowTests.test_blank_and_incomplete_labels_rejected) ... ok
+test_changed_review_requires_development_again (test_final_workflow.WorkflowTests.test_changed_review_requires_development_again) ... ok
+test_conflicting_text_and_missing_notes_rejected (test_final_workflow.WorkflowTests.test_conflicting_text_and_missing_notes_rejected) ... ok
+test_development_and_single_test_guard (test_final_workflow.WorkflowTests.test_development_and_single_test_guard) ... ok
+test_full_review_coverage_blinding_and_no_overwrite (test_final_workflow.WorkflowTests.test_full_review_coverage_blinding_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.473s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "rows": 710,
+  "label_counts": {
+    "positive": 447,
+    "negative": 182,
+    "neutral": 81
+  },
+  "triage_rows": 242,
+  "source_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "method": "VADER lexicon/rules on text with explicit hashtags removed; +/-0.05 thresholds",
+  "vader_version": "3.3.2",
+  "source_labels_used": false,
+  "human_reviewers": 0,
+  "valid_ground_truth": false,
+  "score_is_probability": false,
+  "evaluation_status": "No supervised performance is reported without reviewed labels."
+}
