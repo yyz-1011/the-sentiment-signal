@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "mode": "fresh staged-index export; no generated outputs or local environment copied",
+  "country_notebook_code_cells": 8,
+  "errors": 0,
+  "source_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "python": "3.12.14",
+  "team_review": "pending"
+}

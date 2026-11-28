@@ -1,0 +1,40 @@
+{
+  "analysis_date": "2026-11-27",
+  "base_repository_commit": "30b74f76653a6af56f558c264107a466f0f13571",
+  "source_sha256": "4c38dc7cc2a8a06a96c13e989541c024ce31e9ee6af890a5f429fbe1f892ec6a",
+  "source_rows": 710,
+  "source_unchanged": true,
+  "country_groups": 32,
+  "main_countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "India"
+  ],
+  "main_posts": 594,
+  "windows": [
+    "all",
+    "before_2023",
+    "2023_observed",
+    "2020_2022",
+    "2023_Jan_Apr"
+  ],
+  "cell_flag_below_n": 10,
+  "cell_flag_is_inference_threshold": false,
+  "standardization": "Fixed pooled full-period main-country weights; no missing-stratum imputation",
+  "excluded_rows": 0,
+  "reviewed_sentiment_used": false,
+  "models_trained": 0,
+  "hypothesis_tests_run": 0,
+  "status": "calculation_checks_passed; independent team review pending",
+  "team_approved": false,
+  "exact_text_unique_rows": 706,
+  "hashtag_post_rows": 1420,
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  }
+}

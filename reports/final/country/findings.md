@@ -15,3 +15,7 @@ These are exploratory summaries of synthetic posts. The [country mapping](countr
 3. **Comparing broad sentiment across countries is still an open task.** The supplied labels are sparse. The [original-label shares](country_supplied_label_pct.csv) divide each label count by all posts in that country group. They are provided alongside the [counts](country_supplied_label_counts.csv); they are not reviewed polarity results. After label review, report reviewed shares and exclusion rates, compare within platforms, and inspect whether the patterns persist outside 2023 wherever support permits.
 
 Supporting coverage: [country × platform](country_platform_counts.csv), [country × year](country_year_counts.csv), and [platform-mix sensitivity](country_interactions_sensitivity.csv). Regenerate with `python scripts/country_explore.py`. Interactions means likes plus retweets, not exposure-normalized engagement. No statistical test or cultural inference is reported.
+
+## Label-independent extension — 27 November 2026
+
+The [new report](label_independent/findings.md), [standalone HTML](label_independent/report.html) and [notebook](../../../notebooks/04_country_comparisons.ipynb) extend these summaries with observed-month coverage, five date windows, country/platform distributions, fixed-weight checks and sparse-cell disclosure. The original tables above and original sentiment labels are preserved. Calculations are complete; independent team review is pending. Reviewed country sentiment proportions and exclusion rates still depend on adjudicated labels.
